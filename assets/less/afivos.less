@@ -1,0 +1,268 @@
+/*=============================================
+ * Fonts
+ =============================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@font-face {
+  font-family: 'proxima_nova_rgbold';
+  src: url('../fonts/ProximaNova/proximanova-bold-webfont.eot');
+  src: url('../fonts/ProximaNova/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNova/proximanova-bold-webfont.woff') format('woff'),
+       url('../fonts/ProximaNova/proximanova-bold-webfont.ttf') format('truetype'),
+       url('../fonts/ProximaNova/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url('../fonts/ProximaNova/proximanova-regular-webfont.eot');
+  src: url('../fonts/ProximaNova/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNova/proximanova-regular-webfont.woff') format('woff'),
+       url('../fonts/ProximaNova/proximanova-regular-webfont.ttf') format('truetype'),
+       url('../fonts/ProximaNova/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_novasemibold';
+  src: url('../fonts/ProximaNova/proximanova-semibold-webfont.eot');
+  src: url('../fonts/ProximaNova/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNova/proximanova-semibold-webfont.woff') format('woff'),
+       url('../fonts/ProximaNova/proximanova-semibold-webfont.ttf') format('truetype'),
+       url('../fonts/ProximaNova/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*=============================================
+ * General Styles
+ =============================================*/
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,p {
+  font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'proxima_novasemibold', Helvetica, Arial, sans-serif;
+}
+
+header a, #about a, footer a {
+  font-family: 'proxima_novasemibold', Helvetica, Arial, sans-serif;
+  -webkit-transition: color 250ms ease-in-out;
+  -moz-transition: color 250ms ease-in-out;
+  -o-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 18px;
+  background: url(../img/boat.jpg) no-repeat center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #efefef;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto 0;
+  /* Pad bottom by footer height */
+  padding: 0 0 4% 0;
+}
+
+.container {
+  max-width: 868px;
+  margin: 0 auto;
+}
+
+.small-space {
+  padding-bottom: 1.5%;
+}
+
+.space {
+  padding-bottom: 3%;
+}
+
+.double-space {
+  padding-bottom: 6%;
+}
+
+/*---------- Header ----------*/
+
+header {
+	padding: 25px 0 15px 0;
+	background-color: rgba(254, 254, 254, 0.075);
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  header {
+    padding: 15px 0 5px 0;
+  }
+}
+
+header #name a {
+	color: #fefefe;
+	text-decoration: none;
+}
+
+header #name a:hover {
+	color: #dce7ee;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  header #name a {
+    font-size: 16px;
+  }
+}
+
+header .links a {
+	color: #dce7ee;
+	font-size: 16px;
+}
+
+header .links a:hover {
+	text-decoration: none;
+	color: #fefefe;
+}
+
+/*---------- About ----------*/
+
+#about {
+  margin-top: 7%;
+  color: #fefefe;
+}
+
+#about a {
+  color: #fefefe;
+}
+
+#about a:hover {
+  color: #45669f;
+  text-decoration: none;
+}
+
+/*---------- Work ----------*/
+
+.work {
+	padding: 10% 0 10% 0;
+	text-align: center;
+	background-color: #efefef;
+}
+
+/* Dribbble Feed Related */
+
+.shot, .shot-image {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.dribbble-feed {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  padding: 0 0 0 6.25%;
+}
+
+.shot {
+  float: left;
+  margin: 1.665%;
+  width: 28%;
+  -webkit-box-shadow:  0px 1px 2px 0px rgba(1, 1, 1, 0.1);
+  padding: 1%;
+  background: #fff;
+  box-shadow:  0px 1px 2px 0px rgba(1, 1, 1, 0.1);
+}
+
+.shot:hover {
+  -webkit-box-shadow:  0px 1px 2px 0px rgba(1, 1, 1, 0.2);
+  box-shadow:  0px 1px 2px 0px rgba(1, 1, 1, 0.2);
+}
+
+.shot-image {
+  width: 100%;
+}
+
+.shot-image:hover {
+  opacity: 0.7;
+}
+
+/* Media Queries */
+
+@media handheld, only screen and (max-width: 767px) {
+  .shot {
+    float: left;
+    margin: 1.5%;
+    width: 45%;
+  }
+}
+
+@media handheld, only screen and (max-width: 600px) {
+  .shot {
+    float: none;
+    margin: 10% 1.5%;
+    width: 93%;
+    padding: 2%;
+  }
+}
+
+/*---------- Footer ----------*/
+
+footer {
+	padding: 7.5% 0 7% 0;
+	background-color: #fefefe;
+	border-top: 1px solid #ddd;
+	font-size: 18px;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  footer {
+    font-size: 16px;
+  }
+}
+
+footer #social a {
+  font-family: 'proxima_novasemibold', Helvetica, Arial, sans-serif;
+	padding: 10px;
+	color: #6e6e6e;
+}
+
+footer #social a:hover {
+	text-decoration: none;
+	color: #959595;
+}
+
+footer #copyright {
+	color: #6e6e6e;
+}
+
+footer #copyright a {
+	color: #959595;
+}
+
+footer #copyright a:hover {
+	text-decoration: none;
+	color: #6e6e6e;
+}
