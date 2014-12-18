@@ -1,0 +1,63 @@
+$white:				#FFFFFF;
+
+$grey-lightest:		darken($white, 4%);
+$grey-light:		darken($white, 8%);
+$grey:				darken($white, 12%);
+$grey-dark:			darken($white, 16%);
+$grey-darkest:		darken($white, 18%);
+
+$cocoa-brown:		#2D231E;
+$wild-sand:			#F5F5F5;
+$gallery:			#ECECEC;
+$silver:			#C6C6C6;
+$silver-chalice:	#ADADAD;
+$mercury:			darken($white, 15%);
+$alto:				#DDDDDD;
+$white-subtle:		rgba(255,255,255,.7);
+
+$green:				#19AA5C;
+$green-dark:		darken($green, 4%);
+$green-darkest:		darken($green, 8%);
+$green-light:		lighten($green, 4%);
+$green-lightest:	lighten($green, 8%);
+$green-very-light:	#c2ead4;
+
+$red:				#ce1126;
+$red-dark:			darken($red, 4%);
+$red-darkest:		darken($red, 8%);
+$red-light:			lighten($red, 4%);
+$red-lightest:		lighten($red, 8%);
+$red-very-light:	#f3d8d1;
+
+$blue:				#0087CB;
+$blue-dark:			darken($blue, 4%);
+$blue-darkest:		darken($blue, 8%);
+$blue-light:		lighten($blue, 4%);
+$blue-lightest:		lighten($blue, 8%);
+$blue-very-light:	#ceebf9;
+
+$blue2:				#00AAFF;
+$blue2-dark:		darken($blue2, 4%);
+$blue2-darkest:		darken($blue2, 8%);
+$blue2-light:		lighten($blue2, 4%);
+$blue2-lightest:	lighten($blue2, 8%);
+
+$anakiwa:			#abe4ff;
+
+$orange:			#FD972B;
+$orange-dark:		darken($orange, 4%);
+$orange-darkest:	darken($orange, 8%);
+$orange-light:		lighten($orange, 4%);
+$orange-lightest:	lighten($orange, 8%);
+$orange-very-light:	#fff1e2;
+
+$main-text-color:	$cocoa-brown;
+$link-color:		$blue-darkest;
+$background-color:	$grey-lightest;
+$hover-color:		$grey-light;
+
+$border-color:		#d3d3d3;
+$border-color-dark:	$silver;
+$border-shadow:		$alto;
+
+$highlight:			#ff0;

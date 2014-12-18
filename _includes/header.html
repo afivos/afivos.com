@@ -1,0 +1,34 @@
+<header class="site-header">
+
+  <div class="container">
+
+	<nav>
+		<div class="row">
+			<div class="four columns">
+				<a class="site-title" href="{{ site.baseurl }}/">{{ site.name }}</a>
+			</div>
+			<div class="eight columns text-right">
+				{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+			<ul class="list-inline">
+				<li><a {% if location == 'projects' %}class="active" {% endif %} href="{{ site.baseurl }}/projects">Projects</a></li>
+				<li><a {% if location == 'blog' %}class="active" {% endif %}href="{{ site.baseurl }}/blog">Blog</a></li>
+				<!--<li><a><span class="icon-sun"></span></a></li>-->
+			</ul>
+			</div>
+		</div>
+	</nav>
+
+  </div>
+
+<!-- Night Mode -->
+<script>
+$(document).ready(function() {
+  var $btn = $('.icon-sun'),
+      $box = $('body');
+  $btn.click(function() {
+    $box.toggleClass('night');
+  });
+});
+</script>
+
+</header>
