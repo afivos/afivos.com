@@ -1,0 +1,78 @@
+$main-font:
+	"Helvetica Neue",
+	Helvetica,
+	Arial,
+	sans-serif;
+
+html *,
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+a {
+	color: $color-link;
+	text-decoration: none;
+
+	&:hover,
+	&:focus,
+	&:active {
+		//color: $color-blue-darkest !important;
+		color: $color-primary !important;
+		text-decoration: underline;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&.btn {
+		&:focus,
+		&:active {
+			color: inherit;
+		}
+	}
+}
+
+p {
+	line-height: 1.7;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 2.5rem;
+}
+
+i[class^="fa"]:after,
+span[class^="icon"]:after {
+	content: '';
+	display: inline-block;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-left {
+	text-align: center;
+}
+
+.text-danger,
+.text-danger a, {
+	color: $color-primary;
+}
+
+strong {
+	font-weight: 600;
+}
+
+small {
+	color: inherit !important;
+}
+
+label {
+	font-weight: 600;
+}
