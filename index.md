@@ -2,7 +2,7 @@
 layout: page
 title: #About
 ---
-![wave](/images/me_reading.jpg "Four dudes and a wave")
+![wave](/images/me_reading.jpg "Me reading")
 
 My name is Fivos Avgerinos and I'm a creative from Athens, Greece with a passion for the web, interaction design and typography. I'm into simplicity and minimal aesthetics. Oh and traveling!
 
