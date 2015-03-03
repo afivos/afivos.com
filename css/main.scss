@@ -45,7 +45,6 @@ hr {
 .page-content {
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-bottom: 10%;
 }
 
 //::-moz-selection {background-color: $anakiwa !important;}
@@ -91,7 +90,7 @@ Blog list
 -------------------------------- */
 
 .home {
-	margin: 10% auto;
+	margin: 0 auto 10%;
 
 	@media (max-width: $screen-sm) {
 		margin: 15% auto;
@@ -103,7 +102,7 @@ Blog list
 		margin-right: auto;
 
 		ul {
-			margin: 10% auto;
+			margin: 5% auto;
 			padding-left: 0;
 
 			li {
@@ -238,6 +237,7 @@ Projects list
 	margin-left: auto;
 	margin-right: auto;
 	max-width: $screen-lg;
+	margin-top: 2.5%;
 
 	@media (max-width: $screen-lg) {
 		max-width: $screen-md;
@@ -292,10 +292,10 @@ Blogpost and Project
 
 .post,
 .project {
-	margin: 10% auto;
+	margin: 0 auto 10%;
 
 	header.post-header {
-		margin-bottom: 7rem;
+		margin-bottom: 5rem;
 		padding-top: 0;
 		margin-top: 0;
 
