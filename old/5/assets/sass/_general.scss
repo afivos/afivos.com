@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Ek+Mukta:400,600);
+
+body {
+	font-family: Helvetica Neue, Arial, sans-serif;
+	color: $text;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 400;
+	padding-top: 8%;
+	font-size: 200%;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+
+.container {
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+h1,h2 {
+	font-family: Permanent Marker, Helvetica Neue, Arial, sans-serif;
+	font-weight: 600;
+}
+
+::selection {background: $blue + #444;}
+
+a:not(:active) {
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s;
+}
+
+.social {margin-top: 20px;}
+
+a.dribbble {color: #ee4887;}
+a.twitter {color: #53ade9;}

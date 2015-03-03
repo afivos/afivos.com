@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="My name is Fivos and I'm a young, self-taught designer from Athens, Greece.">
+	<meta name="author" content="Fivos Avgerinos">
+	<meta name="copyright" content="Fivos Avgerinos">
+
+	<meta property="og:title" content="About"/>
+	<meta property="og:site_name" content="Fivos Avgerinos, Designer"/>
+	<meta property="og:url" content="/index.html"/>
+	<meta property="og:description" content="My name is Fivos and I'm a young, self-taught designer from Athens, Greece."/>
+
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:url" content="/index.html"/>
+	<meta name="twitter:title" content="About"/>
+	<meta name="twitter:description" content="My name is Fivos and I'm a young, self-taught designer from Athens, Greece."/>
+
+	<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+	<link rel="shortcut icon" href="favicon.ico?v=4">
+
+	<title>Fivos Avgerinos, Designer</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+	<script src="//use.typekit.net/tcl8eec.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+	<script src="assets/js/min/jquery-min.js"></script>
+	<script src="assets/js/min/bootstrap-min.js"></script>
+
+</head>
+<body>
+
+<!--
+<header>
+	<nav class="navbar-main" id="navbar" role="navigation">
+	  <div class="container">
+	    <div class="navbar-header">
+			<a href="#" class="navbar-toggle hamburger" data-toggle="collapse" data-target="#links-to-collapse">
+			    <div class="hamburger-layers"></div>
+			</a>
+			<a href="/" class="navbar-brand navbar-link">Fivos Avgerinos</a>
+	    </div>
+		<div class="collapse navbar-collapse" id="links-to-collapse">
+			<ul class="list-inline list-unstyled">
+				<li><a href="/about.html">About</a></li>
+				<li><a href="/work.html">Work</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+			</ul>
+		</div>
+	  </div>
+	</nav>
+</header>
+-->
+<div class="section section-initial">
+<div class="container">
+
+	<h3><strong>Fivos Avgerinos</strong></h3>
+
+	<div class="rotating-text">
+		<div class="row">
+			<div class="col-xs-10">
+				<h4 id="rotate"></h4>
+			</div>
+			<div class="col-xs-2 text-right">
+				<a><span class="icon-sun"></span></a>
+			</div>
+		</div>
+
+		<ul class="rotating-words" style="display: none;">
+			<li>User interface designer.</li>
+			<li>User experience designer.</li>
+			<li>Front end developer.</li>
+			<li>Photography enthusiast.</li>
+			<li>World traveler.</li>
+		</ul>
+
+	</div>
+</div>
+</div>
+
+	<img src="assets/img/me.jpg" class="img-responsive">
+
+<div class="section section-last">
+<div class="container">
+
+<p>I’m a young creative from Athens, Greece.</p>
+
+<p>I'm a firm believer in listening to your heart, chasing your dreams, and living the life you've imagined.</p>
+
+	<hr>
+
+	<div class="social">
+		<ul class="list-inline">
+			<li><a href="http://twitter.com/afivos">twitter</a></li>
+			<li><a href="http://dribbble.com/afivos">dribbble</a></li>
+			<li>me@afivos.com</li>
+		</ul>
+	</div>
+
+</div>
+</div>
+
+<!-- Rotating Words -->
+<script>
+var terms = $(".rotating-words li");
+function rotateTerm() {
+ var ct = $("#rotate").data("term") || 0;
+  $("#rotate").data("term",
+  	ct == terms.length -1 ? 0 : ct + 1).text(terms.eq([ct]).text())
+  .fadeIn().delay(1000).fadeOut(1000, rotateTerm);
+}
+$(rotateTerm);
+</script>
+
+<!-- Night Mode -->
+<script>
+$(document).ready(function() {
+  var $btn = $('.icon-sun'),
+      $box = $('body');
+  $btn.click(function() {
+    $box.toggleClass('night');
+  });
+});
+</script>
+

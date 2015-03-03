@@ -1,0 +1,230 @@
+/*----------------------------------------
+fivos.me
+Fivos Avgerinos
+Web Designer & Front End Developer
+Twitter: @afivos
+Dribbble: /fivos
+Last Updated: 22-10-2013
+----------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Open+Sans:400,600,700|Montserrat:400,700);
+
+/*---------- General Styles ----------*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	background-color: #f1f1f1;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 960px !important;
+}
+
+/*---------- Header ----------*/
+
+header {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 4% 0% 4% 0%;
+}
+
+header #name {
+	-webkit-animation: bounceInDown 1s ease-in-out;
+	-moz-animation: bounceInDown 1s ease-in-out;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+}
+
+header #name a {
+	color: #2b2b2b;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header #name a:hover {
+	color: #626262;
+}
+
+header #email {
+	-webkit-animation: bounceInDown 1s 0.4s ease-in-out;
+	-moz-animation: bounceInDown 1s 0.4s ease-in-out;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+}
+
+header #email a {
+	border-bottom: 2px solid #2b2b2b;
+	color: #2b2b2b;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header #email a:hover {
+	border-bottom: 2px solid #626262;
+	color: #626262;
+}
+
+header #email a:visited {
+	text-decoration: none;
+}
+
+/*---------- Main ----------*/
+
+.main {
+	padding: 10% 10% 10% 10%;
+	background-image: url('assets/images/beach copy.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 7px 10px -10px #404040;
+}
+
+.main p {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	line-height: 150%;
+	color: #fff;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-shadow: 1px 1px 1px #626262;
+	-webkit-animation: bounceIn 2.5s 0.7s ease-in-out;
+	-moz-animation: bounceIn 2.5s 0.7s ease-in-out;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+}
+
+.main span.amp {
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+}
+
+/*---------- Dribbble ----------*/
+
+.shot, .shot-image {
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+
+.dribbble-feed {
+	margin: auto 0;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	padding: 10% 0% 10% 5%;
+	-webkit-animation: fadeIn 2.5s 1s ease-in-out;
+	-moz-animation: fadeIn 2.5s 1s ease-in-out;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+}
+
+.shot {
+	float: left;
+	margin: 1.665%;
+	width: 28%;
+	-webkit-box-shadow:  0px 1px 2px 0px rgba(1, 1, 1, 0.1);
+	padding: 1%;
+	background: #fff;
+	box-shadow:  0px 1px 2px 0px rgba(1, 1, 1, 0.1);
+}
+
+.shot:hover {
+	-webkit-box-shadow:  0px 1px 2px 0px rgba(1, 1, 1, 0.2);
+	box-shadow:  0px 1px 2px 0px rgba(1, 1, 1, 0.2);
+}
+
+.shot-image {
+	width: 100%;
+}
+
+.shot-image:hover {
+	opacity: 0.7;
+}
+
+/*---------- Footer ----------*/
+
+footer {
+	text-align: center;
+	background: #fff;
+	color: #aaa;
+	padding: 40px 0 38px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.social a {
+	color: #777777;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-animation: fadeIn 1s 1.5s ease-in-out;
+	-moz-animation: fadeIn 1s 1.5s ease-in-out;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+}
+
+#twitter a:hover {
+	border-bottom: 3px solid #00aced;
+	color: #00aced;
+}
+
+#dribbble a:hover {
+	border-bottom: 3px solid #ea4c89;
+	color: #ea4c89;
+}
+
+#dunked a:hover {
+	border-bottom: 3px solid #3d5a70;
+	color: #3d5a70;
+}
+
+#flickr a:hover {
+	border-bottom: 3px solid #0063db;
+	color: #0063db;
+}
+
+#tumblr a:hover {
+	border-bottom: 3px solid #3d5a70;
+	color: #3d5a70;
+}
+
+/*---------- Media Queries ----------*/
+
+@media handheld, only screen and (max-width: 767px) {
+	.shot {
+		float: left;
+		margin:1.5%;
+		width: 45%;
+	}
+}
+
+@media handheld, only screen and (max-width: 600px) {
+	.shot {
+		float: none;
+		margin: 10% 1.5%;
+		width: 93%;
+		padding: 2%;
+	}
+}
