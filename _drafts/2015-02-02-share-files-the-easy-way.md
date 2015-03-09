@@ -12,7 +12,7 @@ comments:   true
 
 From early summer 2014 until it got chilly in October, a group of friends and I wanted to get away as much as we could. We tried not to spend a single weekend in Athens. We would talk about it all week, get organized and go camping to some remote beach which had to be less than a 3-hour drive from home. We would leave right after work on Friday evenings to drive back late on Sundays. If we had a bet on it we wouldn’t have won it, but to us it was definitely a success. I think we stayed in Athens for no more than 2-3 weekends in total.
 
-{% image imgbleed watermelon.jpg "Marialena and Evelyn pretending to be eating a watermelon" %}
+{% image imgleft watermelon.jpg "Marialena and Evelyn pretending to be eating a watermelon" %}
 
 It was usually 6 of us, sometimes 4 or 8. However, it was just two of us (myself included) who carried a camera, so by the time we got back, both of us had to give our friends the photos we had taken. What a nightmare! We had to transfer them from the SD cards to our computers, spend a couple of hours going through all of them, deleting some to reduce total file size and then find a way to share them online with the rest of the group. My friend - a known procrastinator - couldn’t be bothered doing all that so he still hasn’t given us most of the photos he took (we still like him though).
 
