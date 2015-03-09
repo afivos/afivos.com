@@ -1,7 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@import "all";
+@import "style";
 
 /* --------------------------------
 
@@ -11,25 +11,18 @@ Main Styles
 
 body {
 	background-color: $color-background;
-	font-family: $main-font;
+	font-family: $font-sans;
 	color: $color-main-text;
 	//font-size: 155%;
 	@extend %transition-4;
 	word-wrap: break-word;
+	margin: 0;
+	padding: 1.55556rem;
 }
 
 .container {
-	max-width: $screen-lg;
-	width: 100%;
-
-	@media (max-width: $screen-lg) {
-		max-width: $screen-md;
-	}
-}
-
-img {
-	max-width: 100%;
-	//margin: 1rem 0;
+	max-width: 50rem;
+	margin: 0 auto;
 }
 
 hr {
@@ -38,13 +31,28 @@ hr {
     background: #eee;
 }
 
+.text-right {
+	text-align: right;
+}
+
+.pull-right {
+	float: right;
+}
+
 .text-center {
 	text-align: center;
 }
 
-.page-content {
-	margin-left: 5%;
-	margin-right: 5%;
+ul.list-inline {
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+
+	li {
+		display: inline-block;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
 }
 
 //::-moz-selection {background-color: $anakiwa !important;}
@@ -81,452 +89,4 @@ table {
 
 code {
 	font-size: 14px;
-}
-
-/* --------------------------------
-
-Blog list
-
--------------------------------- */
-
-.home {
-	margin: 0 auto 10%;
-
-	@media (max-width: $screen-sm) {
-		margin: 15% auto;
-	}
-
-	.post-list {
-		max-width: $screen-md;
-		margin-left: auto;
-		margin-right: auto;
-
-		ul {
-			margin: 5% auto;
-			padding-left: 0;
-
-			li {
-				list-style-type: none;
-				padding-bottom: 15px;
-
-				+li {
-					padding-top: 20px;
-					border-top: 1px solid #eee;
-				}
-
-				a {
-					color: $color-main-text-light;
-					text-decoration: none;
-				}
-
-				a.post-meta {
-					float: right;
-					position: relative;
-					top: 0.15rem;
-				}
-
-				a.post-title {
-					color: $color-main-text-dark;
-					display: block;
-					max-width: 75%;
-					font-size: 2rem;
-					line-height: 1.25;
-					font-weight: bold;
-
-					h2.post-headline {
-						font-size: 1.8rem;
-						font-weight: normal;
-						color: $color-main-text-light;
-						margin-top: 0.5rem;
-					}
-				}
-			}
-		}
-	}
-
-	.pagination {
-		margin-top: 10%;
-		//border-top: 1px solid #eee;
-		padding-top: 20px;
-		font-weight: 600;
-
-		ul {
-			li.prev {
-				float: left;
-
-/* 				&:after,
-				&:before {
-				    content: "‹";
-				}
-
-				&:after,
-				&:before {
-				    margin-right: -.15rem;
-				}
-
-				&:hover:after {
-				    padding-right: 1rem;
-				} */
-			}
-
-			li.next {
-				float: right;
-
-/* 				&:after,
-				&:before {
-				    content: "›";
-				}
-
-				&:after,
-				&:before {
-				    margin-left: -.15rem;
-				}
-
-				&:hover:after {
-				    padding-left: 1rem;
-				} */
-			}
-
-			li.prev,
-			li.next {
-/* 			    @extend %transition-2;
-
-				&:after,
-				&:before {
-				    @extend %transition-2;
-				    display: inline-block;
-				    font-size: 2.55rem;
-				    position: absolute;
-				    opacity: 0;
-				    margin-top: -1rem;
-				}
-
-				&:hover:after {
-				    opacity: 1;
-				} */
-
-				a {
-					text-decoration: none;
-
-					.fa {
-						vertical-align: text-bottom;
-						font-weight: 600;
-					}
-
-					.fa-angle-right {
-						margin-left: 0.5rem;
-					}
-
-					.fa-angle-left {
-						margin-right: 0.5rem;
-					}
-				}
-			}
-		}
-	}
-}
-
-/* --------------------------------
-
-Projects list
-
--------------------------------- */
-
-.projects {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: $screen-lg;
-	margin-top: 2.5%;
-
-	@media (max-width: $screen-lg) {
-		max-width: $screen-md;
-	}
-
-	a {
-		img {
-			margin-bottom: 30px;
-		}
-
-		h2 {
-			position: absolute;
-			left: 15px;
-			margin: 0;
-			opacity: 0;
-			@extend %transition-3;
-			color: $color-white;
-			font-size: 1.6rem;
-			font-weight: 400;
-			background-color: #262626;
-			//letter-spacing: 0;
-			top: 0;
-			height: auto;
-			bottom: 30px;
-			right: 15px;
-			padding-top: 30px;
-			padding-left: 25px;
-			margin-bottom: 0;
-		}
-
-		&:hover {
-			h2 {
-				opacity: 1;
-			}
-		}
-	}
-}
-
-/* --------------------------------
-
-Blogpost and Project
-
--------------------------------- */
-
-.post {
-	header.post-header {
-		max-width: $screen-md;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
-.post,
-.project {
-	margin: 0 auto 10%;
-
-	header.post-header {
-		margin-bottom: 5rem;
-		padding-top: 0;
-		margin-top: 0;
-
-		h1.post-title {
-			font-size: 3rem;
-			color: $color-main-text-dark;
-			font-weight: bold;
-			line-height: 1.3em;
-		}
-
-		h2.post-headline {
-			font: 22px/1.3em Georgia,serif;
-			color: $color-main-text-light;
-			margin-top: -0.5rem;
-			margin-bottom: 0;
-		}
-
-		span[class*="cross"] {
-			color: $color-main-text-dark;
-			padding-top: 1.5rem;
-			font-size: 2.25rem;
-			@extend %transition-1;
-
-			&:hover {
-				color: $color-primary;
-			}
-		}
-
-		ul.post-tags {
-			margin-top: -2rem;
-			margin-bottom: 4rem;
-
-			li {
-				padding-right: 1rem;
-				line-height: 2.25;
-
-				a {
-					padding: 0.5rem 1rem;
-					border: 1px solid #eee;
-					border-radius: 4px;
-					text-decoration: none;
-					font-size: 13px;
-
-					&:hover {
-						color: inherit !important;
-						opacity: 0.6;
-					}
-				}
-			}
-		}
-	}
-
-	article.project-content {
-		.meta-title {
-			text-transform: uppercase;
-			font-weight: 600;
-			margin-bottom: 0.75em;
-			font-size: 0.85em;
-			color: $color-main-text-dark;
-		}
-
-		img {
-			margin-bottom: 5rem;
-		}
-
-		.row {
-			@media (max-width: $screen-sm) {
-				margin-bottom: 5rem;
-			}
-		}
-	}
-
-	article.post-content {
-		max-width: $screen-md;
-		margin-left: auto;
-		margin-right: auto;
-
-		h1 {
-			font-size: 3rem;
-			color: $color-main-text-dark;
-			font-weight: bold;
-			line-height: 1.3em;
-		}
-
-		h2 {
-			font-weight: 600;
-			font-size: 2.25rem;
-			line-height: 1.3;
-		}
-
-		h3 {
-			font-weight: 600;
-			font-size: 1.9rem;
-		}
-
-		h4 {
-			font-weight: 500;
-			font-size: 1.8rem;
-		}
-
-		h5 {
-			font-weight: 500;
-			font-size: 1.6rem;
-		}
-
-		strong {
-			color: $color-main-text-dark;
-		}
-
-		p {
-			font-size: 16px;
-		}
-
-		blockquote {
-			padding-left: 1.5rem;
-			border-left: 3px solid $color-primary;
-			margin-left: 0;
-		}
-
-		@media (min-width: $screen-lg) {
-			img {
-				width: $screen-lg - 30px;
-				max-width: none;
-				margin-left: -165px;
-				margin-bottom: 7.5%;
-				margin-top: 7.5%;
-			}
-
-			p:first-child {
-				img:first-of-type {
-					margin-top: 2.5rem;
-				}
-			}
-		}
-	}
-
-	footer {
-		max-width: $screen-md;
-		margin-left: auto;
-		margin-right: auto;
-
-		nav.post-nav {
-			border: 0;
-			font-size: 100%;
-			font: inherit;
-			vertical-align: baseline;
-			margin: 0;
-			padding: 0;
-		}
-	}
-}
-
-/* --------------------------------
-
-Blockquote Twitter
-
--------------------------------- */
-
-blockquote.twitter-tweet {
-  display: inline-block;
-  padding: 16px;
-  margin: 10px 0;
-  max-width: 468px;
-  border: #ddd 1px solid;
-  border-top-color: #eee;
-  border-bottom-color: #bbb;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-  font: bold 14px/18px Helvetica, Arial, sans-serif;
-  color: #000;
-}
-
-blockquote.twitter-tweet p {
-  font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
-  margin: 0 5px 10px 0;
-}
-
-blockquote.twitter-tweet a[href^="https://twitter.com"] {
-  font-weight: normal;
-  color: #666;
-  font-size: 12px;
-}
-
-/* --------------------------------
-
-Footer
-
--------------------------------- */
-
-footer.site-meta,
-footer.post-meta {
-	font-size: 1.4rem;
-	font-weight: bold;
-	line-height: 1.4;
-	border-top: 1px solid #eee;
-	padding-top: 40px;
-	margin-bottom: 40px;
-	margin-top: 40px;
-	color: #444;
-
-	a {
-		text-decoration: none;
-		color: #444;
-	}
-
-	div {
-		margin: 0 25px 0 0;
-		float: left;
-		vertical-align: baseline;
-
-		span {
-			color: #aaa;
-			font-weight: 500;
-			display: block;
-		}
-	}
-}
-
-footer.site-meta {
-	padding-bottom: 10%;
-
-	li {
-		margin-right: 2rem;
-	}
-}
-
-#disqus_thread {
-	margin-top: 10%;
-	max-width: $screen-md;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 10%;
-	border-top: 1px solid #eee;
 }

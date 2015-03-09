@@ -1,9 +1,15 @@
-$screen-xs:	400px;
-$screen-sm:	550px;
-$screen-md:	590px;
-$screen-lg:	950px;
-$screen-xl:	1280px;
+$screen-xs:		400px;
+$screen-sm:		480px;
+$screen-md:		700px;
+$screen-lg:		950px;
+$screen-xl:		1280px;
 
-@import "colors";
-@import "typography";
-@import "transitions";
+$gutter:		30px;
+
+// Fonts
+$font-name-a:	"Helvetica Neue";
+$font-name-b:	"Georgia";
+
+$font-sans:		$font-name-a, Helvetica Neue, Helvetica, Arial,	sans-serif;
+$font-serif:	$font-name-b, Georgia, serif;
+$font-code:		monospace;

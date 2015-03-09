@@ -2,20 +2,17 @@
 layout: default
 title: Projects
 ---
-<div class="home">
-
-  <div class="projects">
-    <div class="row">
+<div class="projects">
+  <div class="container">
+    <div class="grid">
       {% for post in site.categories.project limit: 9 %}
-        <div class="col-md-4 col-sm-6">
+        <div class="grid__col grid__col--1-of-3">
           <a href="{{ post.url }}"><img src="{{ post.preview }}" alt="{{ post.title }}"/><h2>{{ post.title }}</h2></a>
-        </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
   </div>
+</div>
 
   <!--
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   -->
-    
-</div>

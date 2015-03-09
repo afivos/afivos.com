@@ -1,0 +1,33 @@
+// ------------------------------
+//
+// Links
+//
+// ------------------------------
+
+a {
+	color: $color-link;
+	text-decoration: none;
+
+	&:link,
+	&:visited {
+		color: $color-link;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color-primary !important;
+		text-decoration: underline;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&.btn {
+		&:focus,
+		&:active {
+			color: inherit;
+		}
+	}
+}

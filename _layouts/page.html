@@ -4,16 +4,28 @@ layout: default
 <div class="post">
 
 	{% if page.title %}
-		<header class="post-header">
-			<h1 class="post-title">{{ page.title }}</h1>
-			{% if page.headline %}
-				<h2 class="post-headline">{{ page.headline }}</h2>
-			{% endif %}
-		</header>
+	<header class="post-header">
+		<div class="container">
+			<div class="grid">
+				<div class="grid__col grid__col--4-of-6 grid__col--centered">
+					<h1 class="post-title">{{ page.title }}</h1>
+					{% if page.headline %}
+					<h2 class="post-headline">{{ page.headline }}</h2>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</header>
 	{% endif %}
 
 	<article class="post-content">
-		{{ content }}
+	  	<div class="container">
+		  	<div class="grid">
+				<div class="grid__col grid__col--4-of-6 grid__col--centered">
+				    {{ content }}
+				</div>
+			</div>
+	  	</div>
 	</article>
 
 </div>

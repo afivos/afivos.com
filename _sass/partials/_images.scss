@@ -1,0 +1,41 @@
+img {
+  width: 100%;
+}
+
+.projects img {
+  margin-bottom: $gutter;
+}
+
+figure img {
+  display: block;
+  margin-bottom: $gutter/2;
+}
+
+.imgbleed {
+  @media (min-width: $screen-md) {
+    width: 153%;
+    margin-left: -26.5%;
+  }
+}
+
+.imgleft {
+  @media (min-width: $screen-md) {
+    float: left;
+    width: 50%;
+    margin-left: -26.5%;
+    margin-right: $gutter;
+  }
+}
+
+.imgright {
+  @media (min-width: $screen-md) {
+    float: right;
+    width: 50%;
+    margin-right: -26.5%;
+    margin-left: $gutter;
+  }
+}
+
+figcaption :last-child {
+  //margin-bottom: 0;
+}

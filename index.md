@@ -1,8 +1,7 @@
 ---
 layout: page
-title: #About
 ---
-![Me reading on the beach](/images/me-reading-on-the-beach.jpg "Me reading on the beach")
+{% image imgbleed me-reading-on-the-beach.jpg "Reading at [Limnionas Beach](http://www.greece.com/destinations/Central_Greece/Evia/Settlement/Limnionas.html)" %}
 
 My name is Fivos Avgerinos and I'm a creative from Athens, Greece with a passion for the web, interaction design and typography. I'm into simplicity and minimal aesthetics. Oh and traveling!
 
