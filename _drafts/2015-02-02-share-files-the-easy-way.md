@@ -20,7 +20,7 @@ It was usually 6 of us, sometimes 4 or 8. However, it was just two of us (myself
 
 I decided to pay for Dropbox. I got 1 TB for 1 year and paid €100. After I sent my friends the link to a folder, they told me Dropbox would not let them download it. Apparently it was “too large”.
 
-> **Dropbox:** It's not possible to use the webwebsite.name to download an entire folder that's over 1 GB or that has over 10,000 files. If the folder is in your account, use the Dropbox desktop application to download the entire folder to your computer automatically.
+> **Dropbox:** It's not possible to use the website to download an entire folder that's over 1 GB or that has over 10,000 files. If the folder is in your account, use the Dropbox desktop application to download the entire folder to your computer automatically.
 
 My friends would have to pay just to get the photos I wanted to share with them. Not an option. We ended up exchanging external hard drives which was far from convenient.
 
