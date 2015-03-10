@@ -5,18 +5,34 @@
 // ------------------------------
 
 footer.site-footer {
-	border-top: 1px solid #eee;
-	padding-top: 3%;
-	margin: 0 0 $gutter 0;
+	margin: 0 0 ($gutter*1.5) 0;
 	color: $color-main-text-light;
 
-	a {
-		color: $color-main-text-light;
-		@extend %transition-3;
-		text-decoration: none;
+	@media (max-width: $screen-md) {
+		border-top: 1px solid #eee;
+	}
 
-		&:hover {
-			color: $color-link;
+	nav {
+		padding-top: $gutter*1.5;
+
+		@media (min-width: $screen-md) {
+			border-top: 1px solid #eee;
+		}
+	}
+
+	a {
+		&:link,
+		&:visited {
+			color: $color-main-text-light;
+		}
+	}
+
+	ul.list-inline {
+		margin-top: $gutter/2.5;
+
+		li {
+			padding-right: 0.25rem;
+			padding-left: 0.25rem;
 		}
 	}
 }
