@@ -5,17 +5,17 @@
 // ------------------------------
 
 a {
-	color: $color-link;
-	text-decoration: none;
+	@extend %transition-1;
 
 	&:link,
 	&:visited {
-		color: $color-link;
+		color: $color-main-text;
 	}
 
 	&:hover,
 	&:focus,
-	&:active {
+	&:active,
+	&.active {
 		color: $color-primary !important;
 		text-decoration: underline;
 	}
