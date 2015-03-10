@@ -5,10 +5,13 @@ Header
 -------------------------------- */
 
 header.site-header {
-	margin: ($gutter/2) 0 5% 0;
+	margin: ($gutter/2) 0 ($gutter*1.5) 0;
+
+	@media (min-width: $screen-lg) {
+		margin: $gutter 0 $gutter*3 0;
+	}
 
 	@media (max-width: $screen-md) {
-		margin-bottom: ($gutter*1.5);
 		border-bottom: 1px solid #eee;
 	}
 
@@ -44,29 +47,29 @@ header.site-header {
 			@media (max-width: $screen-md) {text-align: center;}
 
 			li a {
-				color: $color-main-text-light;
-				@extend %transition-2;
-				text-decoration: none !important;
-				transition: border-color 200ms ease !important;
+				font-size: 0.9rem;
+				text-decoration: none;
+				@extend %transition-0;
+
+				&:link,
+				&:visited {
+					color: $color-main-text-light;
+				}
 
 				@media (min-width: $screen-md) {
-					padding-bottom: $gutter + 4px;
+					padding-bottom: $gutter + 2px;
 					margin-left: 1.25rem;
+
+					&:hover,
+					&:focus,
+					&:active,
+					&.active {
+						border-bottom: 1px solid $color-primary;
+					}
 				}
 
 				@media (max-width: $screen-md) {
-					margin: 0 0.75rem;
-				}
-
-				&:hover,
-				&.active,
-				&:active,
-				&:focus {
-					color: $color-primary !important;
-
-					@media (min-width: $screen-md) {
-						border-bottom: 1px solid $color-primary;
-					}
+					margin: 0 0.5rem;
 				}
 			}
 		}
