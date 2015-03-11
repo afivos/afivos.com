@@ -1,8 +1,8 @@
 $color-white:				#FFFFFF;
 
-$color-main-text-light:		#9ba2ab;
 $color-main-text:			#515862;
-$color-main-text-dark:		#25282c;
+$color-main-text-light:		lighten($color-main-text, 20%);
+$color-main-text-dark:		darken($color-main-text, 15%);
 
 $color-primary:				#008fd5;
 $color-primary-dark:		darken($color-primary, 10%);
