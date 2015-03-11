@@ -9,15 +9,18 @@ a {
 
 	&:link,
 	&:visited {
-		color: $color-main-text;
+		color: $color-link;
+		text-decoration: none;
 	}
 
 	&:hover,
 	&:focus,
-	&:active,
-	&.active {
-		color: $color-primary !important;
+	&:active {
 		text-decoration: underline;
+	}
+
+	&.active {
+		color: $color-link !important;
 	}
 
 	&:focus {
