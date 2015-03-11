@@ -15,12 +15,10 @@ a {
 
 	&:hover,
 	&:focus,
-	&:active {
-		text-decoration: underline;
-	}
-
+	&:active,
 	&.active {
 		color: $color-link !important;
+		text-decoration: underline;
 	}
 
 	&:focus {
