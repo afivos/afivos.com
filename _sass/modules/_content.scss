@@ -106,18 +106,12 @@ Blogpost and Project
 
 .post,
 .project {
-	header.post-header {
-		margin-bottom: 3rem;
-	}
-}
-
-.post,
-.project {
 	margin: 0 auto 10%;
 
 	header.post-header {
 		padding-top: 0;
 		margin-top: 0;
+		margin-bottom: 3rem;
 
 		h1.post-title {
 			font-size: 1.85rem;
