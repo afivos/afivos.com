@@ -74,14 +74,7 @@ figure {
 
 		a {
 			text-decoration: underline;
-			color: $color-main-text-light !important;
 			@extend %transition-1;
-
-			&:hover,
-			&:focus,
-			&:active {
-				color: $color-main-text !important;
-			}
 		}
 
 /* 		@media (min-width: $screen-sm) {
