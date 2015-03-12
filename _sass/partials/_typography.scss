@@ -76,13 +76,5 @@ figure {
 			text-decoration: underline;
 			@extend %transition-1;
 		}
-
-/* 		@media (min-width: $screen-sm) {
-			margin-bottom: $gutter * 1.5;
-		}
-
-		@media (max-width: $screen-sm) {
-			margin-bottom: 1.5rem;
-		} */
 	}
 }
