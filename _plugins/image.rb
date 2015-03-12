@@ -31,11 +31,7 @@ module Jekyll
     def render(context)
       source = "<figure class='#{@class}'>"
 
-      if Jekyll.configuration({'config' => ['_config.yml']})['production'] == true
-        source += "<img src=\"http://afivos.com/images/#{@url}\">"
-      else
-        source += "<img src=\"http://127.0.0.1:4000/images/#{@url}\">"
-      end
+      source += "<img src=\"/images/#{@url}\">"
 
       @caption = Kramdown::Document.new(@caption).to_html if @caption
       source += "<figcaption>#{@caption}</figcaption>" if @caption
