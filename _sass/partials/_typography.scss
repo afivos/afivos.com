@@ -62,7 +62,10 @@ label {
 }
 
 code {
-	font-size: 14px;
+	font-size: 1.25rem;
+	background-color: #e6f7ff;
+	padding: 0.15rem 0.3rem;
+	color: $color-primary-dark;
 }
 
 figure {
