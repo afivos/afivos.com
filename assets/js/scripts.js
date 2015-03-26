@@ -7,14 +7,3 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-48466891-1', 'auto');
 ga('send', 'pageview');
-
-// Change tab title when user loses focus
-
-var t = document.title, e = "Come back! \u2764";
-$(window).focus(function() {
-   document.title = t
-});
-
-$(window).blur(function() {
-   document.title = e
-});
