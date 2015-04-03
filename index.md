@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{% image imgbleed me-reading-on-the-beach.jpg "Reading at [Limnionas Beach](http://www.greece.com/destinations/Central_Greece/Evia/Settlement/Limnionas.html)" %}
+{% image imgbleed me-reading-on-the-beach.jpg "Reading at [Limnionas Beach](http://www.greece.com/destinations/Central_Greece/Evia/Settlement/Limnionas.html). Photo by [Evelin Aro Karenio](http://instagram.com/evekarenio)." %}
 
 My name is Fivos Avgerinos and I'm a designer from Athens. I have a passion for the web, interaction design and typography. I'm into simplicity and minimal aesthetics. Oh, and traveling.
 
