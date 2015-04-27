@@ -5,7 +5,7 @@
 // ------------------------------
 
 footer.site-footer {
-	margin: 0 0 ($gutter*1.5) 0;
+	margin: 0 0 ($gutter * 1.5) 0;
 	color: $color-main-text-light;
 
 	@media (max-width: $screen-md) {
@@ -13,7 +13,7 @@ footer.site-footer {
 	}
 
 	nav {
-		padding-top: $gutter*1.5;
+		padding-top: ($gutter * 1.5);
 
 		@media (min-width: $screen-md) {
 			border-top: 1px solid #eee;
@@ -28,7 +28,7 @@ footer.site-footer {
 	}
 
 	ul.list-inline {
-		margin-top: $gutter/2.5;
+		margin-top: ($gutter / 2.5);
 
 		li {
 			padding-right: 0.25rem;
