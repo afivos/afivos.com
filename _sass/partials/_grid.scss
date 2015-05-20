@@ -51,11 +51,11 @@ $DE-grid-column-namespace: "grid__col" !default;
 $DE-col-groups: (2, 3, 4, 5, 6, 8, 12) !default;
 
 // Gutter width
-$DE-gutter-width: 30px !default; //default: 20px
+$DE-gutter-width: 25px !default;
 
 // Breakpoints
-$DE-breakpoint-medium: 700px !default; //default: 700px
-$DE-breakpoint-small: 480px !default; //default: 480px
+$DE-breakpoint-medium: 700px !default;
+$DE-breakpoint-small: 480px !default;
 
 .#{$DE-grid-namespace} {
   list-style: none;
@@ -185,8 +185,8 @@ $DE-breakpoint-small: 480px !default; //default: 480px
 
     @media (max-width: $DE-breakpoint-medium) {
       display: block;
-      margin-left: 0; //default: 0
-      margin-right: 0; //default: 0
+      margin-left: 0;
+      margin-right: 0;
       width: auto;
     }
 
