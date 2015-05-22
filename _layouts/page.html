@@ -1,31 +1,16 @@
 ---
 layout: default
 ---
-<div class="post">
-
-	{% if page.title %}
-	<header class="post-header">
-		<div class="container">
-			<div class="grid">
-				<div class="grid__col grid__col--4-of-6 grid__col--centered">
-					<h1 class="post-title">{{ page.title }}</h1>
-					{% if page.headline %}
-					<h2 class="post-headline">{{ page.headline }}</h2>
-					{% endif %}
-				</div>
-			</div>
-		</div>
+<article class="page grid">
+	<header class="grid__col grid__col--2-of-8">
+		{% if page.title %}
+		<h1 class="page__title">{{ page.title }}</h1>
+			{% if page.headline %}
+			<h2 class="page__headline">{{ page.headline }}</h2>
+			{% endif %}
+		{% endif %}
 	</header>
-	{% endif %}
-
-	<article class="post-content">
-	  	<div class="container">
-		  	<div class="grid">
-				<div class="grid__col grid__col--4-of-6 grid__col--centered">
-				    {{ content }}
-				</div>
-			</div>
-	  	</div>
-	</article>
-
-</div>
+	<div class="grid__col grid__col--4-of-8">
+		{{ content }}
+	</div>
+</article>

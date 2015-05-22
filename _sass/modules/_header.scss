@@ -4,11 +4,11 @@ Header
 
 -------------------------------- */
 
-header.site-header {
+.site-header {
 	margin: ($gutter / 2) 0 ($gutter * 1.5) 0;
 
 	@media (min-width: $screen-lg) {
-		margin: $gutter 0 ($gutter * 2) 0;
+		margin: $gutter 0 ($gutter * 3.5) 0;
 	}
 
 	@media (max-width: $screen-md) {
@@ -22,9 +22,8 @@ header.site-header {
 			border-bottom: 1px solid #eee;
 		}
 
-		a.site-title {
+		.site-title {
 			font-weight: 500;
-			font-size: 1.2rem;
 			color: $color-main-text-dark;
 			border: 0;
 			@extend %transition-2;
@@ -41,13 +40,12 @@ header.site-header {
 			}
 		}
 
-		ul {
-			@media (min-width: $screen-md) {float: right;}
+		.list-inline {
 			@media (max-width: $screen-md) {text-align: center;}
 
 			li a {
-				font-size: 0.9rem;
 				text-decoration: none;
+				margin-right: ($gutter / 1.5);
 				@extend %transition-0;
 
 				&:link,
@@ -56,8 +54,7 @@ header.site-header {
 				}
 
 				@media (min-width: $screen-md) {
-					padding-bottom: $gutter + 7px;
-					margin-left: 1.25rem;
+					padding-bottom: $gutter + 2px;
 
 					&:hover,
 					&:focus,

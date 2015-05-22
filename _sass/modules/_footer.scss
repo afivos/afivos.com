@@ -4,8 +4,8 @@
 //
 // ------------------------------
 
-footer.site-footer {
-	margin: 0 0 ($gutter * 1.5) 0;
+.site-footer {
+	margin: ($gutter * 5) 0 ($gutter * 1.5) 0;
 	color: $color-main-text-light;
 
 	@media (max-width: $screen-md) {
@@ -27,12 +27,11 @@ footer.site-footer {
 		}
 	}
 
-	ul.list-inline {
+	.list-inline {
 		margin-top: ($gutter / 2.5);
 
 		li {
-			padding-right: 0.25rem;
-			padding-left: 0.25rem;
+			margin-right: 0.5rem;
 		}
 	}
 }

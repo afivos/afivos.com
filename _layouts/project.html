@@ -1,72 +1,33 @@
 ---
 layout: default
 ---
-<div class="project">
+<article class="grid">
+	<header class="grid__col grid__col--2-of-8">
+		{% if page.title %}
+		<h1 class="page__title">{{ page.title }}</h1>
+			{% if page.headline %}
+			<h2 class="page__headline">{{ page.headline }}</h2>
+			{% endif %}
+		{% endif %}
 
-	<header class="post-header">
-		<div class="container">
-			<div class="grid">
-				<div class="grid__col grid__11-of-12 col-xs-12">
-					<h1 class="post-title">{{ page.title }}</h1>
-					{% if page.headline %}
-						<h2 class="post-headline">{{ page.headline }}</h2>
-					{% endif %}
-				</div>
-				<div class="grid__col grid__1-of-12 hidden-xs pull-right">
-					<a {% if location == 'project/' %} {% endif %} href="{{ site.baseurl }}/projects"><span class="icon-cross"></span></a>
-				</div>
-			</div>
-		</div>
+		{% if page.client_name %}
+			<p class="">Client<br>
+			{% if page.client_url %}
+				<a href="{{ page.client_url }}">{{ page.client_name }}</a>
+			{% else %}
+				{{ page.client_name }}
+			{% endif %}
+			</p>
+		{% endif %}
+
+		{% if page.website_url %}
+			<p class="">Website<br>
+				<a href="{{ page.website_url }}">{{ page.website_name }}</a>
+			</p>
+		{% endif %}
 	</header>
-
-	<article class="project-content">
-		<div class="container">
-		  <div class="grid">
-		    <div class="grid__col grid__col--4-of-6">
-		      <img src="{{ page.preview }}" alt="{{ page.title }}">
-		    </div>
-		    <div class="grid__col grid__col--2-of-6">
-					{% if page.content != "" %}
-					<p class="meta-title">Description</p>
-				{{ content }}
-				{% endif %}
-
-				{% if page.client_name %}
-					<p class="meta-title">Client</p>
-					{% if page.client_url %}
-						<a href="{{ page.client_url }}">{{ page.client_name }}</a>
-					{% else %}
-						{{ page.client_name }}
-					{% endif %}
-				{% endif %}
-
-				{% if page.website_url %}
-					<p class="meta-title">Website</p>
-					<a href="{{ page.website_url }}">{{ page.website_name }}</a>
-				{% endif %}
-		    </div>
-		  </div>
-
-		    {% if page.image_1 %}
-		        <img src="{{ page.image_1 }}" alt="{{ page.title }}">
-		    {% endif %}
-
-		    {% if page.image_2 %}
-		        <img src="{{ page.image_2 }}" alt="{{ page.title }}">
-		    {% endif %}
-
-		    {% if page.image_3 %}
-		        <img src="{{ page.image_3 }}" alt="{{ page.title }}">
-		    {% endif %}
-
-		    {% if page.image_4 %}
-		        <img src="{{ page.image_4 }}" alt="{{ page.title }}">
-		    {% endif %}
-
-		    {% if page.image_5 %}
-		        <img src="{{ page.image_5 }}" alt="{{ page.title }}">
-		    {% endif %}
-		</div>
-	</article>
-
-</div>
+	<div class="grid__col grid__col--4-of-8">
+		{{ content }}
+		<!--<img src="{{ page.preview }}" alt="{{ page.title }}" class="imgbleed">-->
+	</div>
+</article>

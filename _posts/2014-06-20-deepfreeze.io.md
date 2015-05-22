@@ -11,3 +11,5 @@ website_url:    # http://deepfreeze.io
 website_name:   # deepfreeze.io
 ---
 The landing page I designed for Deepfreeze.io. It's now called BigStash.
+
+{% image deepfreeze.gif %}

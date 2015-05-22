@@ -12,3 +12,5 @@ website_url:    http://afivos.com
 website_name:   afivos.com
 ---
 Portfolio update.
+
+{% image portfolio.jpg %}

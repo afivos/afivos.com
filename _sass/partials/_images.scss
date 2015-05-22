@@ -11,27 +11,22 @@ figure img {
   margin-bottom: ($gutter / 2);
 }
 
-.imgbleed {
-  @media (min-width: $screen-md) {
-    width: 153%;
-    margin-left: -26.5%;
+@media (min-width: $screen-md) {
+  .imgbleed {
+    width: calc(150% + #{$gutter/2});
   }
-}
 
-.imgleft {
-  @media (min-width: $screen-md) {
+  .imgleft {
     float: left;
-    width: 50%;
-    margin-left: -26.5%;
+    width: calc(50% - #{$gutter/2});
+    margin-left: calc(-50% - #{$gutter/2});
     margin-right: $gutter;
   }
-}
 
-.imgright {
-  @media (min-width: $screen-md) {
+  .imgright {
     float: right;
-    width: 50%;
-    margin-right: -26.5%;
+    width: calc(50% - #{$gutter/2});
+    margin-right: calc(-50% - #{$gutter/2});
     margin-left: $gutter;
   }
 }

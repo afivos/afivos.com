@@ -17,11 +17,11 @@ body {
 	@extend %transition-4;
 	word-wrap: break-word;
 	margin: 0;
-	padding: 1.55556rem;
+	padding: $gutter;
 }
 
 .container {
-	max-width: 50rem;
+	max-width: $screen-lg;
 	margin: 0 auto;
 }
 
@@ -29,6 +29,8 @@ hr {
     border: 0;
     height: 1px;
     background: #eee;
+    //width: 6rem;
+    margin: ($gutter * 1.5) auto ($gutter * 1.75);
 }
 
 .text-right {
