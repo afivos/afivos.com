@@ -6,10 +6,4 @@ title: About
 
 My name is Fivos Avgerinos and I'm a designer from Athens. I have a passion for the web, interaction design, typography, simplicity and minimal aesthetics. And traveling. Like, as much as possible.
 
-I'm currently working for [BigStash](http://bigstash.co/ "BigStash") as a User Interface Designer. However, I always manage to find time for various [side projects](http://dribbble.com/afivos "Fivos Avgerinos on Dribbble"). Interested in working with me? Find me on [Twitter](http://twitter.com/afivos "Fivos Avgerinos on Twitter") or send me an email at <span id="email"></span>.
- 
-<script>
-  var parts = ["afivos", "me", "com", "&#46;", "&#64;"];
-  var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
-  document.getElementById("email").innerHTML=email;
-</script>
+I'm currently working for [BigStash](http://bigstash.co/ "BigStash") as a User Interface Designer. However, I always manage to find time for various [side projects](http://dribbble.com/afivos "Fivos Avgerinos on Dribbble"). Interested in working with me? Find me on [Twitter](http://twitter.com/afivos "Fivos Avgerinos on Twitter") or send me an email at afivos@me.com.
