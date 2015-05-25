@@ -13,21 +13,3 @@ $transition-6: all 600ms ease;
 %transition-4 {transition: $transition-4;}
 %transition-5 {transition: $transition-5;}
 %transition-6 {transition: $transition-6;}
-
-@-webkit-keyframes fadeIn {
-	0%		{opacity: 0;}
-	20%		{opacity: 0;}
-	40%		{opacity: 0.3;}
-	60%		{opacity: 0.5;}
-	80%		{opacity: 0.9;}
-	100%	{opacity: 1;}
-}
-
-@keyframes fadeIn {
-	0%		{opacity: 0;}
-	20%		{opacity: 0;}
-	40%		{opacity: 0.3;}
-	60%		{opacity: 0.5;}
-	80%		{opacity: 0.9;}
-	100%	{opacity: 1;}
-}
