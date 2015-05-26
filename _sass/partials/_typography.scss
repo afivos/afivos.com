@@ -6,9 +6,26 @@ body {
 	line-height: 1.4em;
 }
 
+%strong {
+	font-weight: 600
+}
+
+strong {
+	@extend %strong;
+}
+
+%small {
+	font-size: 0.8rem;
+}
+
+small,
+.small {
+	@extend %small;
+}
+
 h1,h2,h3,h4 {
 	font-size: 1rem;
-	font-weight: 600;
+	@extend %strong;
 }
 
 a {
@@ -50,28 +67,15 @@ span[class^="icon"]:after {
 	color: $color-primary;
 }
 
-strong {
-	font-weight: 600;
-}
-
-%small {
-	font-size: 0.8rem;
-}
-
-small,
-.small {
-	@extend %small;
-}
-
 label {
-	font-weight: 600;
+	@extend %strong;
 }
 
 code {
 	background-color: #fafafb;
 	padding: 0 3px;
 	color: $color-main-text-dark;
-	font-weight: 600;
+	@extend %strong;
 	font-family: $font-code;
 	border-radius: 3px;
 	border: 1px solid #f0f2f3;
