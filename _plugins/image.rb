@@ -31,10 +31,14 @@ module Jekyll
     def render(context)
       source = "<figure class='#{@class}'>"
 
+      source += "<a href=\"/images/#{@url}\">"
+
       source += "<img src=\"/images/#{@url}\">"
 
       @caption = Kramdown::Document.new(@caption).to_html if @caption
       source += "<figcaption>#{@caption}</figcaption>" if @caption
+
+      source += "</a>"
 
       source += "</figure>"
 
