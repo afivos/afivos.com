@@ -35,10 +35,10 @@ module Jekyll
 
       source += "<img src=\"/images/#{@url}\">"
 
+      source += "</a>"
+
       @caption = Kramdown::Document.new(@caption).to_html if @caption
       source += "<figcaption>#{@caption}</figcaption>" if @caption
-
-      source += "</a>"
 
       source += "</figure>"
 
