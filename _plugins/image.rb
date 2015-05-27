@@ -31,9 +31,9 @@ module Jekyll
     def render(context)
       source = "<figure class='#{@class}'>"
 
-      source += "<a href=\"/images/#{@url}\">"
+      source += "<a href=\"http://images.afivos.com/#{@url}\">"
 
-      source += "<img src=\"/images/#{@url}\">"
+      source += "<img src=\"http://images.afivos.com/#{@url}\">"
 
       source += "</a>"
 
