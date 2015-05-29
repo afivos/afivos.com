@@ -2,16 +2,39 @@ img {
   width: 100%;
 }
 
-.projects img {
-  margin-bottom: $gutter;
+figure {
+  margin-bottom: 1.55rem;
 }
 
 figure img {
   display: block;
-  margin-bottom: ($gutter / 2);
+  margin-bottom: 0.75rem;
+}
+
+figcaption:empty {
+  display: none;
+}
+
+figcaption :last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: $screen-md) {
+  .imgfull {
+    float: left;
+    width: calc(250% - #{gutter/2});
+    margin-left: calc(-50% - #{$gutter/2});
+    margin-right: calc(-50% - #{$gutter/2});
+  }
+
+  .imgfull img {
+    margin: 0;
+  }
+
+  .imgfull figcaption {
+    margin-top: 0.75rem;
+  }
+  
   .imgbleed {
     width: calc(150% + #{$gutter/2});
   }
@@ -31,6 +54,42 @@ figure img {
   }
 }
 
-figcaption :last-child {
-  margin-bottom: ($gutter * 1.25);
+//////////////////
+//  Images 2x2
+//////////////////
+.images-2x2 {
+  float: left;
+  width: calc(250% - #{gutter/2});
+  margin-left: calc(-50% - #{$gutter/2});
+  margin-right: calc(-50% - #{$gutter/2});
+}
+
+.images-2x2 img {
+  box-sizing: border-box;
+  padding: 0 (1.55rem / 2);
+  width: 50%;
+  float: left;
+  margin: 0;
+  margin-bottom: 1.55rem;
+}
+
+.images-2x2 a {
+  &:nth-child(odd) img {padding-left: 0;}
+  &:nth-child(even) img {padding-right: 0;}
+}
+
+@media (max-width: $screen-sm) {
+  .images-2x2 img {
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin-bottom: 1.55rem;
+  }
+}
+
+@media (max-width: $screen-md) {
+  .images-2x2 {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
