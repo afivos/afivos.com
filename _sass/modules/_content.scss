@@ -105,6 +105,10 @@ ul.list-inline {
 			display: block;
 			max-width: 75%;
 			@extend %strong;
+
+			@media (max-width: $screen-sm) {
+				max-width: 70%;
+			}
 		}
 
 		.post__headline {
