@@ -24,7 +24,7 @@ So, I ended up finding out about the **Adaptive Wide Angle** filter in Photoshop
 
 {% image imgfull 2015/06/IMG_1327_photoshop.png %}
 
-However, after playing with the Adaptive Wide Angle filter for a couple minutes by adding some horizontal and vertical lines using the **Constraint Tool**, here's what I ended up with:
+However, after playing with it for a couple of minutes by adding some horizontal and vertical lines using the **Constraint Tool**, here's what I ended up with:
 
 {% image imgbleed 2015/06/IMG_1327_AWA.jpg "After playing with the Adaptive Wide Angle filter." %}
 
