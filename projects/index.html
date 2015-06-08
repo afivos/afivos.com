@@ -15,7 +15,11 @@ title: Projects
 		<div class="grid">
 			{% for post in site.categories.project limit: 9 %}
 			<div class="grid__col grid__col--1-of-3">
+				{% if post.direct_url %}
+				<a href="{{ post.direct_url }}" target="_blank"><img src="{{ post.preview }}" alt="{{ post.title }}"/><h2>{{ post.title }}</h2></a>
+				{% else %}
 				<a href="{{ post.url }}"><img src="{{ post.preview }}" alt="{{ post.title }}"/><h2>{{ post.title }}</h2></a>
+				{% endif %}
 			</div>
 			{% endfor %}
 		</div>
