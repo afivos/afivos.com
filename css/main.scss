@@ -13,7 +13,6 @@ body {
 	background-color: $color-background;
 	font-family: $font-sans;
 	color: $color-main-text;
-	//font-size: 155%;
 	@extend %transition-4;
 	word-wrap: break-word;
 	margin: 0;

@@ -3,6 +3,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
+	font-size: (16/16)*100%;
 	line-height: 1.4em;
 }
 
@@ -23,9 +24,11 @@ small,
 	@extend %small;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5,h6 {
 	font-size: 1rem;
 	@extend %strong;
+	margin-bottom: 1rem;
+	margin-top: 0;
 }
 
 a {
