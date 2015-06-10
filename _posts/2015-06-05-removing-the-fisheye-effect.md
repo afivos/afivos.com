@@ -2,7 +2,7 @@
 layout:     post
 category:   blog
 
-title:      Removing the Fisheye Fffect
+title:      Removing the Fisheye Effect
 headline:   Playing with the Adaptive Wide Angle filter
 date:       2015-06-05 16:06:44
 
