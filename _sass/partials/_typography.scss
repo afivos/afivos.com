@@ -51,25 +51,19 @@ pre {
 	margin-bottom: 1.55rem;
 }
 
+code,
 pre {
-	background-color: $color-main-text;
-	color: $color-white;
-	padding: 6px 12px;
-	overflow: auto;
-	white-space: pre;
-	word-wrap: normal;
-	border-radius: 3px;
 	font-family: $font-code;
 }
 
-code {
-	background-color: #fafafb;
-	padding: 0 3px;
-	color: $color-main-text-dark;
-	@extend %strong;
-	font-family: $font-code;
-	border-radius: 3px;
-	border: 1px solid #f0f2f3;
+pre {
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+	word-wrap: normal;
+
+	@media (min-width: $screen-md) {
+		width: calc(150% + #{$gutter/2});
+	}
 }
 
 i[class^="fa"]:after,
