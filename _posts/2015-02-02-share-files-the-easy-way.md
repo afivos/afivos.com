@@ -2,7 +2,7 @@
 layout:     post
 category:   blog
 
-title:      "Share files: the easy way"
+title:      Share files: the easy way
 headline:   A better way to share photos and videos with friends
 date:       2015-02-02 14:23:34
 
