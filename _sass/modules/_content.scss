@@ -37,16 +37,6 @@ ul.list-inline {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
 @media (min-width: $screen-lg) {
 	p:first-child {
 		img:first-of-type {
@@ -69,7 +59,6 @@ ul.list-inline {
 .post__headline {
 	margin-top: 0;
 	margin-bottom: $gutter;
-	color: $color-main-text-light;
 	font-weight: normal;
 
 	@media (max-width: $screen-md) {
@@ -83,38 +72,25 @@ ul.list-inline {
 
 	li {
 		list-style-type: none;
-
-		+li {
-			padding-top: $gutter;
-			border-top: 1px solid #eee;
-		}
+		margin-bottom: $gutter;
 
 		a {
-			color: $color-main-text-light;
 			text-decoration: none;
-		}
 
-		.post__meta {
-			float: right;
-			position: relative;
-			@extend %small;
-		}
-
-		.post__title {
-			color: $color-main-text-dark;
-			display: block;
-			max-width: 75%;
-			@extend %strong;
-
-			@media (max-width: $screen-sm) {
-				max-width: 70%;
+			.post__title {
+				color: $color-main-text;
+				font-weight: normal;
 			}
-		}
 
-		.post__headline {
-			font-weight: normal;
-			color: $color-main-text-light;
-			margin-top: 0;
+			.post__headline {
+				color: $color-main-text-light !important;
+			}
+
+			&:hover {
+				.post__title {
+					color: $color-link;
+				}
+			}
 		}
 	}
 }
