@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 <figure>
-    <img src="/images/2015/07/IMG_7904.jpg" class="imgbleed">
+    <img src="/images/2015/07/IMG_7904.JPG" class="imgbleed">
     <figcaption>In Catania, Sicily. Photo by George Kekatos.</figcaption>
 </figure>
 
