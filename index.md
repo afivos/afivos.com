@@ -4,7 +4,7 @@ title: About
 ---
 
 <figure>
-<img src="/images/2015/07/huey-yun-teo-resume.JPG" class="ImageTag">
+<img src="/images/huey-yun-teo-resume.jpg" class="imgbleed>
 <figcaption>In Universal Studios Singapore. </figcaption>
 </figure>
 
