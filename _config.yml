@@ -4,7 +4,7 @@ email: nico.thyun@gmail.com
 url: "http://nicothyun.github.io" # the base hostname & protocol for your site
 description: Hi I am HY and I'm a marketer
 title: "Huey Yun Teo, Marketing & Design"
-
+baseurl: /nicothyun
 
 gems:
   - octopress-autoprefixer
