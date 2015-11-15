@@ -1,12 +1,11 @@
 ---
 layout:     post
-category:   blog
+category:   blog, content curation, technical writing
 
 title:      Updating my site with a simple command
 headline:   Using Amazon S3 with S3cmd
 date:       2015-06-11 14:12:35
 
-comments:   true
 ---
 When I found out that GitHub Pages didn't support the Jekyll plugin I wanted to use, I had to host my site elsewhere.
 
