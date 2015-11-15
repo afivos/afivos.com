@@ -70,6 +70,9 @@ GEM
     toml (0.1.2)
       parslet (~> 1.5.0)
     yajl-ruby (1.2.1)
+    group :jekyll_plugins do
+      gem 'jekyll-picture-tag', '~> 0.2.3'
+    end
 
 PLATFORMS
   ruby

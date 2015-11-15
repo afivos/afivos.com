@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-{% img [imgbleed] [http[s]:/]/images/huey-yun-teo-resume.jpg [Huey Yun Photo | "Huey Yun Teo Profile" ["In Universal Studios Singapore."]] %}
+{% img [imgbleed] [http[s]:/]/Users/THY/Documents/Frontend /nicothyun.github.io/images/2015/07/huey-yun-teo-resume.jpg [Huey Yun Photo | "Huey Yun Teo Profile" ["In Universal Studios Singapore."]] %}
 
 My name is Huey Yun Teo. You can call me HY and I hail from the sunny islands of Singapore. My vices (or interests) include but are not limited to soccer, cats and old films. I live on the philosophy of action, where I believe knowledge (learned through books or texts) are best accompanied by action and experience.
 
