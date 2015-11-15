@@ -3,8 +3,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
-	font-size: (16/16)*100%;
-	line-height: 1.45;
+	font-size: (15/15)*100%;
+	line-height: 1.55;
 }
 
 %strong {
@@ -25,6 +25,7 @@ small,
 }
 
 h1,h2,h3,h4,h5,h6 {
+	font-family: $font-serif;
 	font-size: 1rem;
 	@extend %strong;
 	margin-bottom: 1rem;
@@ -41,7 +42,7 @@ a {
 }
 
 p {
-	font-weight: normal;
+	font-weight: 300;
 	font-style: normal;
 }
 
