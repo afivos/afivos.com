@@ -8,7 +8,7 @@ title: "Huey Yun Teo, Marketing & Design"
 
 gems:
   - octopress-autoprefixer
-  - jekyll-imagetag
+
 
 # Social
 twitter: nicothyun
@@ -17,10 +17,7 @@ github: nicothyun
 
 # Build settings
 markdown: kramdown
-<<<<<<< HEAD
-markdown: redcarpet
-=======
->>>>>>> parent of bf38536... add plugin
+
 
 # Serving
 port: 4000
