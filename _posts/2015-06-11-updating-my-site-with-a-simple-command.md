@@ -1,6 +1,6 @@
 ---
 layout:     post
-category:   blog, content curation, technical writing
+category:   blog
 
 title:      Updating my site with a simple command
 headline:   Using Amazon S3 with S3cmd
