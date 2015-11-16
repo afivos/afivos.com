@@ -3,7 +3,7 @@ layout: page
 title: Resume
 ---
 
-I like to think of myself as a storyteller that combines code, design, words, interactive media to tell the story of your brand and product. 
+I like to think of myself as a storyteller that combines code, design, words, interactive media to tell the story of your brand and product. [See my publications here](/features)
 
 ##Content Marketer, New York##
 KISI Inc, *January 2015  - Present*
