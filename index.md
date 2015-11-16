@@ -9,7 +9,7 @@ title: About
 </figure>
 
 
-My name is Huey Yun Teo. You can call me HY and I hail from the sunny islands of Singapore. I'm **currently working for KISI as a Content Marketer**.
+My name is Huey Yun Teo. You can call me HY and I hail from the sunny island of Singapore. I'm **currently working for KISI as a Content Marketer**.
 
  My vices (or interests) include but are not limited to soccer, cats and old films. I live on the philosophy of action, where I believe knowledge (learned through books or texts) are best accompanied by action and experience.
 
