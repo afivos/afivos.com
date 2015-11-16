@@ -3,7 +3,7 @@ layout: page
 title: Resume
 ---
 
-I believe in the power of narratives and storytelling. I have always been surrounded by books, comics or films. Brands fascinate me in a similar way;   I like to dig into the core messaging of a company and narrate their stories through digital and physical means.
+I like to think of myself as a storyteller that combines code, design, words, interactive media to tell the story of your brand and product. 
 
 ##Content Marketer, New York##
 KISI Inc, *January 2015  - Present*
