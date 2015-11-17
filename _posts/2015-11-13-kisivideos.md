@@ -5,13 +5,13 @@ category:   project
 title:      KISI Videos
 headline:   Edit and produce KISI product and marketing videos
 date:       2015-11-15
-preview:   /images/kisi-video.png 
+preview:   /images/kisi-video.png
 tag: videos, adobe premier pro
 ---
 
 Skills: Adobe Premiere Pro
 
-I edited and produced most of KISI videos. You can check them out at our [newly-created Youtube channel](https://www.youtube.com/channel/UCHWxG_cz-CmXWW5anLyNJVw?&ab_channel=KISI).
+I edited and produced most of KISI videos. You can check them out at our [newly-created Youtube channel](https://www.youtube.com/channel/UCHWxG_cz-CmXWW5anLyNJVw?&ab_channel=KISI){:target="_blank"}.
 
 Here are some video clips examples:
 

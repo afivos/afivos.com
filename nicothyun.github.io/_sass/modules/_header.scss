@@ -1,0 +1,72 @@
+/* --------------------------------
+
+Header
+
+-------------------------------- */
+
+.site-header {
+	margin: ($gutter / 2) 0 ($gutter * 1.5) 0;
+
+	@media (min-width: $screen-lg) {
+		margin: ($gutter / 2) 0 ($gutter * 3) 0;
+	}
+
+	@media (max-width: $screen-md) {
+		border-bottom: 1px solid #eee;
+	}
+
+	nav {
+		padding-bottom: $gutter;
+
+		@media (min-width: $screen-md) {
+			border-bottom: 1px solid #eee;
+		}
+
+		.site-title {
+			color: $color-main-text-dark;
+			border: 0;
+			@extend %transition-2;
+			text-decoration: none !important;
+
+			@media (max-width: $screen-md) {
+				display: block;
+				text-align: center;
+				margin-bottom: ($gutter / 1.5);
+			}
+
+			&:hover {
+				color: $color-main-text !important;
+			}
+		}
+
+		.list-inline {
+			@media (max-width: $screen-md) {text-align: center;}
+
+			li a {
+				text-decoration: none;
+				margin-right: ($gutter / 1.5);
+				@extend %transition-0;
+
+				&:link,
+				&:visited {
+					color: $color-main-text-light;
+				}
+
+				@media (min-width: $screen-md) {
+					padding-bottom: $gutter + 2px;
+
+					&:hover,
+					&:focus,
+					&:active,
+					&.active {
+						border-bottom: 1px solid $color-link;
+					}
+				}
+
+				@media (max-width: $screen-md) {
+					margin: 0 0.5rem;
+				}
+			}
+		}
+	}
+}
