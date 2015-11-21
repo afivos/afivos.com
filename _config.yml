@@ -8,6 +8,10 @@ title: "Huey Yun Teo, Marketing & Design"
 gems:
   - octopress-autoprefixer
 
+tags:
+  - jekyll
+  - code
+
 # Social
 twitter: nicothyun
 instagram: nicothyun

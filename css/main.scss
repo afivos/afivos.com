@@ -30,3 +30,11 @@ ul {
 	max-width: $screen-lg;
 	margin: 0 auto;
 }
+
+video#bgvid {
+    padding-bottom: 1.5em;
+    box-shadow: coral;
+    width: 97%;
+    margin-left: 4%;
+    /* display: inline-block; */
+}
