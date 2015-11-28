@@ -23,8 +23,9 @@ Header
 		}
 
 		.site-title {
-			color: $color-main-text-dark;
+			color: $color-white;
 			border: 0;
+			font-size: 1.2em;
 			@extend %transition-2;
 			text-decoration: none !important;
 
