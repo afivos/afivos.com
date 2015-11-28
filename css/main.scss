@@ -22,8 +22,8 @@ body {
 ul {
     font-family: $font-code;
     font-weight: 200;
-    font-size: 0.85em;
-    line-height: 2.2em;
+		font-size: 1em;
+	    line-height: 2.1em;
 }
 
 .container {
@@ -35,7 +35,7 @@ ul {
 	max-width: 27%;
 	padding: 0.4em;
 	background-color: $color-primary-dark;
-	font-family: $font-name-b;
+	font-family: $font-name-c;
 	font-weight: 300;
 	margin-bottom: 1em;
 }

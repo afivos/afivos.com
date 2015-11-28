@@ -7,9 +7,10 @@ $screen-xl:		1280px;
 $gutter:		15px;
 
 // Fonts
-$font-name-a:	"Droid Sans";
-$font-name-b:	"Oswald";
+$font-name-a:	"Droid Sans Mono";
+$font-name-b:	"PT Sans";
+$font-name-c: "Oswald";
 
-$font-sans:		$font-name-a, "Open Sans", "Arial", sans-serif;
-$font-serif:	$font-name-b, "Oswald", serif;
-$font-code:		"Droid Sans"
+$font-sans:		$font-name-a, "Droid Sans", "Arial", sans-serif;
+$font-serif:	$font-name-b, $font-name-c, serif;
+$font-code:		"Droid Sans";

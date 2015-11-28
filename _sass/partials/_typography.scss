@@ -3,8 +3,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
-	font-size: (14/14)*100%;
-	line-height: 1.55;
+	font-size: (15/15)*98%;
+	line-height: 1.75;
 }
 
 %strong {
@@ -24,11 +24,19 @@ small,
 	@extend %small;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	font-family: $font-name-a;
-	font-size: 1rem;
+h1,{
+	font-family: $font-name-b;
+	font-size: 1.1rem;
 	@extend %strong;
 	margin-bottom: 1rem;
+	margin-top: 0;
+}
+
+
+h2,h3,h4,h5,h6 {
+	font-family: $font-name-c;
+	font-size: 1rem;
+	margin-bottom: 0.7rem;
 	margin-top: 0;
 }
 
