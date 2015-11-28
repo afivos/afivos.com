@@ -7,9 +7,9 @@ $screen-xl:		1280px;
 $gutter:		20px;
 
 // Fonts
-$font-name-a:	"sans-serif";
+$font-name-a:	"Droid Sans Regular";
 $font-name-b:	"Futura";
 
-$font-sans:		$font-name-a, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-$font-serif:	$font-name-b, "Futura";
+$font-sans:		$font-name-a, "Droid Sans Mono", sans-serif;
+$font-serif:	$font-name-b, "Futura", "Lora", serif;
 $font-code:		"sans-serif"
