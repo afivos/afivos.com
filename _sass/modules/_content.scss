@@ -1,6 +1,6 @@
 blockquote {
 	padding-left: 1.5rem;
-	border-left: 4px solid $color-primary;
+	border-left: 3px solid $color-primary;
 	margin-left: 0;
 }
 
@@ -27,13 +27,11 @@ hr {
 //::-moz-selection {background-color: $color-primary-light !important;}
 //::selection      {background-color: $color-primary-light !important;}
 
-
-
 ul.list-inline {
 	list-style: none;
 	margin: 0;
-	padding: 0.3em;
-}
+	padding: 0;
+
 	li {
 		display: inline;
 	}

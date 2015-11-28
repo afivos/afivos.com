@@ -26,8 +26,8 @@ small,
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: $font-serif;
-	font-size: 1.1rem;
-		@extend %strong;
+	font-size: 1rem;
+	@extend %strong;
 	margin-bottom: 1rem;
 	margin-top: 0;
 }
