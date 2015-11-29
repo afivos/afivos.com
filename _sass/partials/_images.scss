@@ -46,6 +46,13 @@ figcaption :last-child {
     margin-right: $gutter;
   }
 
+  .imgleftx2 {
+    float: left;
+    width: calc(80% - #{$gutter/2});
+    margin-left: calc(-50% - #{$gutter/2});
+    margin-right: $gutter;
+  }
+
   .imgright {
     float: right;
     width: calc(50% - #{$gutter/2});
