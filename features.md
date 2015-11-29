@@ -2,7 +2,7 @@
 layout: page
 title: Features
 ---
-##Non-fiction & Events##
+##Non-Fiction & Events##
 
 ARTITUDE
 August 2013
@@ -15,7 +15,7 @@ Something To Write Home About: Singapore Arts Festival Event in New York.
 
 ##Poetry##
 
-FULL OF CROW
+FULL OF CROW /\
 Spring 2014
 Haiku to Hades published in Full of Crow, New York
 
@@ -30,3 +30,5 @@ infinity: 0 published in Issue 6 of Ceriph, Singapore Writer's Festival
 Symbal Magazine
 May 2013
 'her weak space' published in Issue 6 of Symbal Magazine (Official NUS Literacy Magazine)
+
+For more [writing clips](http://hueyyunteo.contently.com "HY on Contently"){:target="_blank"}
