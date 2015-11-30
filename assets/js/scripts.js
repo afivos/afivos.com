@@ -16,3 +16,15 @@ $(function () {
 	    immediateOpen: true
     });
 })
+
+// Close instance after viewport scroll
+$(window).scroll(function() {
+	$('.fluidbox--opened').fluidbox('close');
+});
+
+// Close instance after 'esc' key is pressed
+$(window).bind('keydown', function(e) {
+    if (e.which == 27) {
+        $('.fluidbox--opened').fluidbox('close');
+    }
+});
