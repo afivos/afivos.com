@@ -93,3 +93,10 @@ figcaption :last-child {
     margin: 0 auto;
   }
 }
+
+//////////////////////////////////////////////////////
+//  Magnifying glass cursor for Fluidbox images
+//////////////////////////////////////////////////////
+.fluidbox--closed .fluidbox__ghost {
+  cursor: zoom-in;
+}
