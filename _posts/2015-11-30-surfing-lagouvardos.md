@@ -8,7 +8,7 @@ date:       2015-11-30 18:40:26
 
 comments:   false
 ---
-Yesterday was a good day. Three friends and I went surfing in [Lagouvardos Beach](https://www.google.gr/maps/@37.0904652,21.581745,995m/data=!3m1!1e3)—a beautiful sandy beach in Western Peloponnese. I got the chance to try out my new (slightly used) Billabong 6'6" shortboard which proved to be a great buy!
+Yesterday was a good day. Three friends and I went surfing at [Lagouvardos Beach](https://www.google.gr/maps/@37.0904652,21.581745,995m/data=!3m1!1e3)—a beautiful sandy beach in Western Peloponnese. I got the chance to try out my new (slightly used) Billabong 6'6" shortboard which proved to be a great buy!
 
 After three hours of chasing waves, I gave it a rest and took these photos right before sunset:
 
