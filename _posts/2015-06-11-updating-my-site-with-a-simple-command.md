@@ -14,7 +14,7 @@ Initially, that took me back to my previous provider which meant going back to F
 
 Finally, I started using [S3cmd](http://s3tools.org/s3cmd), a command line S3 client which can sync files to and from S3 with a simple command:
 
-<pre>s3cmd sync _site s3://afivos.com</pre>
+<pre>s3cmd sync _site/ s3://afivos.com</pre>
 
 Now, all I need to do when updating my site is:
 
