@@ -12,5 +12,7 @@ ga('send', 'pageview');
 // Fluidbox
 
 $(function () {
-    $('a').fluidbox();
+    $('a').fluidbox({
+	    immediateOpen: true
+    });
 })
