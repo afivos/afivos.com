@@ -13,7 +13,8 @@ ga('send', 'pageview');
 
 $(function () {
     $('a').fluidbox({
-	    immediateOpen: true
+	    immediateOpen: true,
+	    loader: true
     });
 })
 
