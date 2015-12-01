@@ -57,40 +57,39 @@ figcaption :last-child {
 //////////////////
 //  Images 2x2
 //////////////////
-.images-2x2 {
-  float: left;
-  width: calc(250% - #{gutter/2});
-  margin-left: calc(-50% - #{$gutter/2});
-  margin-right: calc(-50% - #{$gutter/2});
-}
+@media (min-width: $screen-md) {
+  .images-2x2 {
+    float: left;
+    width: calc(250% - #{gutter/2});
+    margin-left: calc(-50% - #{$gutter/2});
+    margin-right: calc(-50% - #{$gutter/2});
+  }
 
-.images-2x2 img {
-  box-sizing: border-box;
-  padding: 0 (1.55rem / 2);
-  width: 50%;
-  float: left;
-  margin: 0;
-  margin-bottom: 1.55rem;
-}
-
-.images-2x2 a {
-  &:nth-child(odd) img {padding-left: 0;}
-  &:nth-child(even) img {padding-right: 0;}
-}
-
-@media (max-width: $screen-sm) {
   .images-2x2 img {
-    width: 100%;
-    float: none;
-    padding: 0;
+    box-sizing: border-box;
+    padding: 0 (1.55rem / 2);
+    width: 50%;
+    float: left;
+    margin: 0;
     margin-bottom: 1.55rem;
+  }
+
+  .images-2x2 a {
+    &:nth-child(odd) img {padding-left: 0;}
+    &:nth-child(even) img {padding-right: 0;}
   }
 }
 
 @media (max-width: $screen-md) {
   .images-2x2 {
+
+    img {
     width: 100%;
     margin: 0 auto;
+    float: none;
+    padding: 0;
+      margin-bottom: 1.2rem;
+    }
   }
 }
 
