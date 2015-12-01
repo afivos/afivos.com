@@ -6,7 +6,7 @@ title:      Starting fresh
 headline:   New, Jekyll-generated site
 date:       2015-03-13 16:50:50
 
-comments:   true
+comments:   false
 ---
 I finally found the time to update my personal website.
 

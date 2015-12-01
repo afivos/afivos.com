@@ -6,7 +6,7 @@ title:      "Share files: the easy way"
 headline:   A better way to share photos and videos with friends
 date:       2015-02-02 14:23:34
 
-comments:   true
+comments:   false
 ---
 {% image imgbleed wave.jpg "Playing with the waves at [Chiliadou Beach](http://www.greece.com/destinations/Central_Greece/Evia/Settlement/Chiliadou_Beach.html)" %}
 
