@@ -8,6 +8,8 @@ date:       2015-02-02 14:23:34
 
 comments:   false
 ---
+**Update:** [BigStash has shut down.](http://blog.bigstash.co/2015/07/03/bigstash-is-shutting-down/?utm_source=letters+from+vrypan&utm_campaign=68add8b37c-150723_letter_012&utm_medium=email&utm_term=0_267015b10c-68add8b37c-117994697)
+
 {% image imgbleed wave.jpg "Playing with the waves at [Chiliadou Beach](http://www.greece.com/destinations/Central_Greece/Evia/Settlement/Chiliadou_Beach.html)" %}
 
 From early summer 2014 until it got chilly in October, a group of friends and I wanted to get away as much as we could. We tried not to spend a single weekend in Athens. We would talk about it all week, get organized and go camping to some remote beach which had to be less than a 3-hour drive from home. Thankfully, there's quite a few. We would leave right after work on Friday evenings to drive back late on Sundays. If we had a bet on it we wouldn’t have won it, but to us it was definitely a success. I think we stayed in Athens for no more than 2–3 weekends in total.
