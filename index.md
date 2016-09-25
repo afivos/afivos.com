@@ -7,8 +7,9 @@ title: About
     <!--<figcaption>In Catania, Sicily. Photo by George Kekatos.</figcaption>-->
 </figure>
 
-My name is Fivos Avgerinos and I'm a designer from Athens. I have a passion for interaction design, typography, simplicity and minimal aesthetics. And traveling. Like, as much as possible.
+My name is Fivos Avgerinos and I'm a designer with a passion for the web, typography, simplicity and clean aesthetics. And [traveling](http://instagram.com/afivos "Fivos Avgerinos on Instagram").
 
-During the past couple of years I worked for [BigStash](http://bigstash.co/ "BigStash") as a User Interface Designer. I am currently doing my 9-month military service (compulsory for Greek male citizens), working at the Ministry of National Defense.
+During the past couple of years, I was a User Interface Designer at Longaccess in Athens. I'm currently working on various freelance projects and I'm available for new opportunities.
 
-However, I always manage to find time for various [side projects](http://dribbble.com/afivos "Fivos Avgerinos on Dribbble"). Interested in working with me? Find me on [Twitter](http://twitter.com/afivos "Fivos Avgerinos on Twitter") or send me an email at afivos@me.com.
+You can take a look at [my portfolio](http://dribbble.com/afivos "Fivos Avgerinos on Dribbble") and [my résumé](/Résumé.pdf). Interested in working with me? Send me an email at afivos@me.com.
+
