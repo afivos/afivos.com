@@ -11,5 +11,5 @@ My name is Fivos Avgerinos and I'm a designer with a passion for the web, typogr
 
 During the past couple of years, I was a User Interface Designer at Longaccess in Athens. I'm currently working on various freelance projects and I'm available for new opportunities.
 
-You can take a look at [my portfolio](http://dribbble.com/afivos "Fivos Avgerinos on Dribbble") and [my résumé](/Résumé.pdf). Interested in working with me? Send me an email at afivos@me.com.
+You can take a look at [my portfolio](http://dribbble.com/afivos "Fivos Avgerinos on Dribbble") and [my résumé](/resume.pdf). Interested in working with me? Send me an email at afivos@me.com.
 
