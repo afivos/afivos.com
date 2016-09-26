@@ -1,0 +1,15 @@
+$transition-0: all 0ms ease;
+$transition-1: all 100ms ease;
+$transition-2: all 200ms ease;
+$transition-3: all 300ms ease;
+$transition-4: all 400ms ease;
+$transition-5: all 500ms ease;
+$transition-6: all 600ms ease;
+
+%transition-0 {transition: $transition-0;}
+%transition-1 {transition: $transition-1;}
+%transition-2 {transition: $transition-2;}
+%transition-3 {transition: $transition-3;}
+%transition-4 {transition: $transition-4;}
+%transition-5 {transition: $transition-5;}
+%transition-6 {transition: $transition-6;}

@@ -1,0 +1,24 @@
+$color-white:			#fff;
+$color-black:			#111;
+
+$color-blue:			#2876D6;
+$color-green:			#007850;
+$color-red:				#D9222A;
+$color-yellow:			#FEC600;
+
+$color-grey:			#ccc;
+$color-grey-dark:		#4C4C4C;
+$color-grey-light:		#eee;
+
+$color-main-text:		#888;
+$color-main-text-light:	#aaa;
+$color-heading:			$color-black;
+
+$color-border:			$color-grey-light;
+
+$color-primary:			$color-blue;
+$color-primary-dark:	darken($color-primary, 10%);
+
+$color-link:			$color-primary;
+
+$color-background:		$color-white;
