@@ -3,7 +3,7 @@ name: Fivos Avgerinos
 email: afivos@me.com
 url: "http://afivos.com" # the base hostname & protocol for your site
 description: > # this means to ignore newlines until "baseurl:"
-  My name is Fivos and I'm a young, designer from Athens, Greece.
+  My name is Fivos and I'm a young designer from Athens, Greece.
 title: "Fivos Avgerinos, Designer"
 baseurl: "" # the subpath of your site, e.g. /blog/
 
