@@ -7,9 +7,6 @@ title: About
     <figcaption>In the Devil's Hole, Vouliagmeni. Photo by <a href="https://www.instagram.com/mkaziales">Michael Kaziales</a>.</figcaption>
 </figure>
 
-My name is Fivos Avgerinos and I'm a designer with a passion for the web, typography, simplicity and clean aesthetics. And [traveling](http://instagram.com/afivos "Fivos Avgerinos on Instagram").
+I’m Fivos, a multidisciplinary designer on a mission to learn as much as possible about design, its applications, its potential and its limitations (if any). I'm currently doing an MA in Design at Goldsmiths University of London focusing on Spaces and Participation.
 
-During the past couple of years, I was a User Interface Designer at Longaccess in Athens. I'm currently working on various freelance projects and I'm available for new opportunities.
-
-You can take a look at [my portfolio](http://dribbble.com/afivos "Fivos Avgerinos on Dribbble") and [my résumé](/resume.pdf). Interested in working with me? Send me an email at afivos@me.com.
-
+Prior to this, I have primarily worked as a web/user interface designer both as a freelancer as well as within startup teams of designers and software engineers.
