@@ -12,8 +12,6 @@ comments:   false
 
 This is the mission statement we came up with for our group project. We are asked to design a renunciation of the ‘normal’ museum; to question the very idea of the Enlightenment museum and conceive and contribute to the founding of an alternative museum—a museum of refusals. As a group, being part of the Spaces & Participation studio, we initially looked at thematics such as authority, surveillance, engagement, behaviour/code of conduct, obedience/discipline, accessibility, experience and the illusion of safety/comfort.
 
-{% image imgbleed 2017/10/IMG_7018.JPG %}
-
 It was through quite a few hours of individual research and group discussions that we decided to explore mass surveillance as the main thematic for our project, touching on the rest of the concepts mentioned above as peripheral but equally significant.
 
 Focusing on Michel Foucault’s discussion regarding Jeremy Bentham’s Panopticon—a building with a tower at the center from which it is possible to see each cell in which a prisoner is incarcerated—we aim to experiment with the design of a museum where visitors are encouraged to engage with the physical space, switching roles from the surveillor to the surveilled, seeking to point out how behaviour is significantly altered along with one’s perception of being watched.
