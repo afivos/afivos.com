@@ -8,7 +8,7 @@ date:       2015-02-02 14:23:34
 
 comments:   false
 ---
-**Update:** [BigStash has shut down.](http://blog.bigstash.co/2015/07/03/bigstash-is-shutting-down/?utm_source=letters+from+vrypan&utm_campaign=68add8b37c-150723_letter_012&utm_medium=email&utm_term=0_267015b10c-68add8b37c-117994697)
+**Update:** [BigStash has shut down](http://blog.bigstash.co/2015/07/03/bigstash-is-shutting-down/?utm_source=letters+from+vrypan&utm_campaign=68add8b37c-150723_letter_012&utm_medium=email&utm_term=0_267015b10c-68add8b37c-117994697).
 
 {% image imgbleed wave.jpg "Playing with the waves at [Chiliadou Beach](http://www.greece.com/destinations/Central_Greece/Evia/Settlement/Chiliadou_Beach.html)" %}
 
