@@ -5,7 +5,7 @@ category:   project
 title:      Millhouse
 headline:   Web Design &amp; Front End Development
 date:       2016-10-26
-preview:    /images/2016/10/millhouse.jpg
+preview:    /images/2016/10/recipe.png
 
 client_name:    Introfex Ltd
 client_url:     http://introfex.gr
