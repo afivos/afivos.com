@@ -110,3 +110,16 @@ figure {
 		}
 	}
 }
+
+sup {
+	line-height: 0;
+
+	a {
+		@extend %extra-small;
+		font-weight: 500;
+	}
+}
+
+.footnotes {
+	@extend %small;
+}
