@@ -7,11 +7,11 @@ headline:   Web Design &amp; Front End Development
 date:       2016-10-26
 preview:    /images/2016/10/millhouse.jpg
 
-client_name:    Introfex
+client_name:    Introfex Ltd
 client_url:     http://introfex.gr
 
 website_url:    http://millhouse.gr
-website_name:   Millhouse
+website_name:   millhouse.gr
 ---
 One of my most recent projects, [millhouse.gr](http://millhouse.gr) is a website I designed and developed for a private label brand for cereals in Greece, by Introfex Ltd.
 
