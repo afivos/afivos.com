@@ -123,4 +123,8 @@ sup {
 .footnotes {
 	@extend %small;
 	color: $color-main-text-light;
+
+	ol {
+		padding-left: 0;
+	}
 }
