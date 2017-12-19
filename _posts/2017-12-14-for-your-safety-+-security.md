@@ -107,9 +107,9 @@ While the political aspirations of this project are weighty, the dimension of pl
 
 ---
 
-<small>**Credits**
+**Credits**
 
-<small>Erin Liu (Wrote most of this text)
+Erin Liu (Wrote most of this text)
 <br>Anastasiya Vodolagina
 <br>Riya Gokharu
 <br>Wonji Jeong
