@@ -105,9 +105,7 @@ The precise quantity of seventeen masks is incidental and bears no particular si
 
 While the political aspirations of this project are weighty, the dimension of play is crucial. Play is integral not only to the operation of the mask, but also to how the mask is performatively presented. The mask is shared with participants through the re-enactment of a familiar configuration: the biometric registration desk. The desk, two facing chairs, a laptop, a webcam, a registrar; with the exception of a fingerprint scanner, which lacks relevance in this particular scene, the stage is set for a biometric reading. But the familiar lexicon has a few disruptions that are museal in nature: its contextual dislocation (exhibition), a display of rules (museum code), and a slideshow projected in the background (art object). The resulting performance is an uncanny mash-up of mass surveillance and the museum. The hope is that the continuum of conduct-living, upon which both mass and museum surveillance stand, is brought to life through this interplay.
 
----
-
-**Thanks**
+**Credits**
 
 In addition to the academic as well as workshop tutors at the Department of Design at Goldsmiths, I owe thanks to my group mates for their help, inspiration, and amazing work on this project for the past three months.
 
