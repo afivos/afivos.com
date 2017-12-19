@@ -107,12 +107,14 @@ While the political aspirations of this project are weighty, the dimension of pl
 
 ---
 
-**Credits**
+**Thanks**
 
-Erin Liu (Wrote most of this text)
-<br>Anastasiya Vodolagina
-<br>Riya Gokharu
-<br>Wonji Jeong
+In addition to the academic as well as workshop tutors at the Department of Design at Goldsmiths, I owe thanks to my group mates for their help, inspiration, and amazing work on this project for the past three months.
+
+- Erin Liu, for doing most of the research and writing most of this text;
+- Anastasiya Vodolagina;
+- Riya Gokharu;
+- Wonji Jeong.
 
 ---
 
