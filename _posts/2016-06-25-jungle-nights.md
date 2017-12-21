@@ -2,6 +2,8 @@
 layout:     project
 category:   project
 
+published:  false
+
 title:      Jungle Nights
 headline:   A poster for island, Athens Riviera
 date:       2016-06-25
