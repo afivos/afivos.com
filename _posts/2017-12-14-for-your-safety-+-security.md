@@ -110,7 +110,7 @@ While the political aspirations of this project are weighty, the dimension of pl
 In addition to the academic as well as workshop tutors at the Department of Design at Goldsmiths, I owe thanks to my group mates for their help, inspiration, and amazing work on this project for the past three months.
 
 - Anastasiya Vodolagina;
-- Erin Liu;
+- Erin Liu (most of this text is written by Erin);
 - Riya Gokharu;
 - Wonji Jeong.
 
