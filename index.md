@@ -11,4 +11,4 @@ I’m Fivos, a multidisciplinary designer on a mission to learn as much as possi
 
 I'm currently doing an MA in Design at Goldsmiths University of London focusing on Spaces and Participation. Prior to this, I have primarily worked as a web/user interface designer both as a freelancer as well as within startup teams of designers and software engineers.
 
-This third paragraph serves no actual purpose other than being a third paragraph, simply because I felt like having a third paragraph but I didn't feel like writing anything else about me.
+This third paragraph serves no actual purpose other than being a third paragraph, simply because I felt like having a third paragraph but couldn't be bothered writing anything else about me.
