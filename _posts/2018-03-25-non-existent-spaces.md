@@ -7,7 +7,7 @@ headline:	Standard Practice - Transfocality project
 date:       2018-03-25
 preview:    /images/2018/03/non-existent-spaces_prototype1.jpg
 ---
-<iframe src="https://player.vimeo.com/video/261715642?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/261715642?title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Simply knowing of a particular space does not qualify for it to exist. 
 
