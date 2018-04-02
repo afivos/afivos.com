@@ -99,3 +99,10 @@ figcaption :last-child {
 .fluidbox--closed .fluidbox__ghost {
   cursor: zoom-in;
 }
+
+//////////////////
+//  iframe (tested with Vimeo)
+//////////////////
+iframe {
+  margin-bottom: 1.55rem;
+}
