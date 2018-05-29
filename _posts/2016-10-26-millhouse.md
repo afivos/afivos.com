@@ -2,6 +2,8 @@
 layout:     project
 category:   project
 
+published:  false
+
 title:      Millhouse
 headline:   Web Design &amp; Front End Development
 date:       2016-10-26
