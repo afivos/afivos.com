@@ -7,8 +7,6 @@ title: About
     <figcaption>In the Devil's Hole, Vouliagmeni. Photo by <a href="https://www.instagram.com/mkaziales">Michael Kaziales</a>.</figcaption>
 </figure>
 
-I’m Fivos, a multidisciplinary designer on a mission to learn as much as possible about design, its applications, its potential and its limitations (if any).
+Fivos is a designer and developer working within and around the boundaries of interaction and user experience design. Most of his work thus far has been primarily related to user interface design and front end development.
 
-I'm currently doing an MA in Design at Goldsmiths University of London focusing on Spaces and Participation. Prior to this, I have primarily worked as a web/user interface designer both as a freelancer as well as within startup teams of designers and software engineers.
-
-This third paragraph serves no actual purpose other than being a third paragraph, simply because I felt like having a third paragraph but couldn't be bothered writing anything else about me.
+Fivos is currently doing an MA in Design at Goldsmiths University of London, focusing on Spaces and Participation. He is on a mission to learn as much as possible about design, its applications, its potential and its limitations, if any.
