@@ -7,8 +7,6 @@ headline:	Standard Practice - Transfocality project
 date:       2018-03-25
 preview:    /images/2018/03/non-existent-spaces_prototype1.jpg
 ---
-Simply knowing of a particular space does not qualify for it to exist. 
-
 The name of this project is *Non-Existent Spaces*[^1] and it is born out of the observation of the spaces around us and the various ways in which we occupy them. It argues that spaces exist in our perception and only there. It is different to know of a place than to actually have agency in it. We are the ones who define our surroundings through the ways we engage with them.
 
 Space is self evident, but the way we perceive it is not. A bedroom, a lecture theatre, a factory, a rainforest, an island; all these spaces only exist when we create memories of ourselves interacting with them. They have standard names and often obvious functions but until we verify them, they remain spaces like the ones in our dreams: their shapes, sizes, colours, forms, functions might be changing depending on our thoughts and feelings. They will not exist until some or all of our senses are given the chance to create definitions for them.
