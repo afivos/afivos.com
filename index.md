@@ -11,4 +11,4 @@ Fivos Avgerinos is an interaction designer with a background in user interface d
 
 Currently doing an MA in Design at Goldsmiths, University of London, focusing on Spaces and Participation.
 
-With an interest in social engagement and interactive experiences, his transdisciplinary practice investigates social issues by imagining alternative realities.
+With an interest in social engagement and interactive experiences, his transdisciplinary practice investigates social issues by imagining alternative futures.
