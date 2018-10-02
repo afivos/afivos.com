@@ -4,7 +4,7 @@ title: About
 ---
 <figure>
     <img src="/images/2017/06/in-a-well.jpg" class="imgbleed">
-    <figcaption>In the Devil's Hole, Vouliagmeni. Photo by <a href="https://www.instagram.com/mkaziales">Michael Kaziales</a>.</figcaption>
+    <!--<figcaption>In the Devil's Hole, Vouliagmeni. Photo by <a href="https://www.instagram.com/mkaziales">Michael Kaziales</a>.</figcaption>-->
 </figure>
 
 Fivos Avgerinos is an interaction designer with a background in user interface design and front end development.
