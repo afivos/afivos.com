@@ -2,7 +2,10 @@
 layout: default
 ---
 <article class="grid">
-	<header class="grid__col grid__col--2-of-8">
+	<div class="grid__col grid__col--1-of-5">
+	</div>
+	<div class="grid__col grid__col--2-of-5">
+		<header>
 		{% if page.title %}
 		<h1 class="page__title">{{ page.title }}</h1>
 			{% if page.headline %}
@@ -25,8 +28,7 @@ layout: default
 				<a href="{{ page.website_url }}">{{ page.website_name }}</a>
 			</p>
 		{% endif %}
-	</header>
-	<div class="grid__col grid__col--4-of-8">
+		</header>
 		{{ content }}
 		<!--<img src="{{ page.preview }}" alt="{{ page.title }}" class="imgbleed">-->
 	</div>
