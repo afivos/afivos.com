@@ -5,9 +5,9 @@ title: Projects
 <article class="projects grid">
 	<header class="grid__col grid__col--1-of-5">
 	</header>
-	<div class="grid__col grid__col--2-of-5">
+	<div class="grid__col grid__col--4-of-5">
 		<div class="grid">
-			{% for post in site.categories.project limit: 8 %}
+			{% for post in site.categories.project limit: 3 %}
 			<div class="grid__col grid__col--1-of-2">
 				{% if post.direct_url %}
 				<a href="{{ post.direct_url }}" target="_blank"><img src="{{ post.preview }}" alt="{{ post.title }}"/><h2>{{ post.title }}</h2></a>
