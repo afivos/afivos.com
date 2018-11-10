@@ -116,12 +116,26 @@ ul.list-inline {
 				padding-left: 28px;
 				padding-right: 30px;
 
-				@media (max-width: $screen-lg) {
-					font-size: 0.8rem;
+				span {
+					display: inline-block;
+					margin-top: 1.5rem;
+
+					@media (max-width: $screen-lg) {
+						margin-top: 0.5rem;
+						font-size: 0.80rem;
+					}
+
+					@media (max-width: 800px) {
+						display: none;
+					}
 				}
 
-				@media (max-width: $screen-md) {
-					font-size: 1rem;
+				@media (max-width: $screen-xl) {
+					font-size: 0.95rem;
+				}
+
+				@media (max-width: $screen-lg) {
+					font-size: 0.90em;
 				}
 			}
 
