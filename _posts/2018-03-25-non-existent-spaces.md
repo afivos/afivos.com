@@ -3,9 +3,10 @@ layout:     project
 category:   project
 
 title:      Non-Existent Spaces
-headline:	Standard Practice - Transfocality project
 date:       2018-03-25
 preview:    /images/2018/03/non-existent-spaces_prototype1.jpg
+
+headline:	The project is born out of the observation of the spaces around us and the various ways in which we occupy them. It argues that spaces exist in our perception and only there.
 ---
 The name of this project is *Non-Existent Spaces*[^1] and it is born out of the observation of the spaces around us and the various ways in which we occupy them. It argues that spaces exist in our perception and only there. It is different to know of a place than to actually have agency in it. We are the ones who define our surroundings through the ways we engage with them.
 

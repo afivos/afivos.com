@@ -3,9 +3,10 @@ layout:     project
 category:   project
 
 title:      Social Inclusion Brick Council
-headline:	Twin Towns - Transfocality Project
 date:       2018-07-06
 preview:    /images/2018/07/SIBC.jpg
+
+headline:    The project hopes to help encourage public participation in urban planning. It utilizes workshops to help foster conversations about the future of built environment in any given place. We believe that public participation is an integral part of successful urban planning.
 
 website_url:	http://sibc.org.uk
 website_name:	sibc.org.uk
