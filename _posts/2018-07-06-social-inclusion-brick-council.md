@@ -6,7 +6,7 @@ title:      Social Inclusion Brick Council
 date:       2018-07-06
 preview:    /images/2018/07/SIBC.jpg
 
-headline:    The SIBC hopes to help encourage public participation in urban planning. It utilises workshops to help foster conversations about the future of built environment in any given place. We believe that public participation is an integral part of successful urban planning.
+headline:    The SIBC hopes to help encourage public participation in urban planning. It utilises workshops to help foster conversations about the future of built environment in any given place.
 
 website_url:	http://sibc.org.uk
 website_name:	sibc.org.uk
