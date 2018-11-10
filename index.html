@@ -7,10 +7,10 @@ layout: default
 	</header>
 	<div class="grid__col grid__col--4-of-5">
 		<div class="grid">
-			{% for post in site.categories.project limit: 3 %}
+			{% for post in site.categories.project limit: 8 %}
 			<div class="grid__col grid__col--1-of-2">
 				{% if post.direct_url %}
-				<a href="{{ post.direct_url }}" target="_blank"><img src="{{ post.preview }}" alt="{{ post.title }}"/><h2>{{ post.title }}</h2></a>
+				<a href="{{ post.direct_url }}" target="_blank"><img src="{{ post.preview }}" alt="{{ post.title }}"/><h2>{{ post.title }}<span>{{ post.headline }}</span></h2></a>
 				{% else %}
 				<a href="{{ post.url }}"><img src="{{ post.preview }}" alt="{{ post.title }}"/><h2>{{ post.title }}<span>{{ post.headline }}</span></h2></a>
 				{% endif %}
