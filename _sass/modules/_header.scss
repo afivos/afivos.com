@@ -38,10 +38,10 @@ Header
 				text-decoration: none;
 				//margin-right: ($gutter / 1.5);
 				@extend %transition-0;
+				color: $color-main-text-dark !important;
 
-				&:link,
-				&:visited {
-					color: $color-main-text-light;
+				&:hover {
+					color: $color-main-text !important;
 				}
 
 				@media (max-width: $screen-md) {
