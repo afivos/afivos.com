@@ -6,7 +6,7 @@ title:      For your safety + security
 date:       2017-12-19
 preview:    /images/2017/12/mask.jpg
 
-headline:    The project refuses the museum’s presumption that the safety of its work hinges on the close monitoring of visitor behaviour. It is an attempt to playfully subvert the structure of surveillance both within and beyond the state-funded museum. 
+headline:    Refusing the museum’s presumption that the safety of its work hinges on the close monitoring of visitor behaviour. The project is an attempt to playfully subvert the structure of surveillance both within and beyond the state-funded museum. 
 ---
 {% image imgright 2017/12/layout_v5_cover.jpg "A [process book](/madep_process_book.pdf) made to communicate the team's process for completing the project." %}
 
