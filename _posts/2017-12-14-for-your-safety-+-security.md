@@ -9,7 +9,7 @@ preview:    /images/2017/12/mask.jpg
 ---
 {% image imgright 2017/12/layout_v5_cover.jpg "A [process book](/madep_process_book.pdf) made to communicate the team's process for completing the project." %}
 
-*A collaborative project between Anastasiya Vodolagina, Erin Liu, Riya Gokharu, Wonji Jeong and myself.*
+*Collaboration with Anastasiya Vodolagina, Erin Liu, Riya Gokharu and Wonji Jeong.*
 
 For your safety + security attempts to playfully subvert the structure of surveillance both within and beyond the state-funded museum. The project refuses the museum’s presumption that the safety of its work hinges on the close monitoring of visitor behaviour. For your safety + security acknowledges that surveillance has calcified within the state-funded museum to the status of given. Sensitive to the broader context of mass surveillance societies, the project refuses an impulse to accept surveillance as necessary to the museum space (and beyond).
 
