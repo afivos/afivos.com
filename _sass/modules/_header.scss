@@ -11,16 +11,8 @@ Header
 		margin: ($gutter / 2) 0 ($gutter * 3) 0;
 	}
 
-	@media (max-width: $screen-md) {
-		border-bottom: 1px solid #eee;
-	}
-
 	nav {
 		padding-bottom: $gutter;
-
-		@media (min-width: $screen-md) {
-			border-bottom: 1px solid #eee;
-		}
 
 		.site-title {
 			color: $color-main-text-dark;
@@ -50,17 +42,6 @@ Header
 				&:link,
 				&:visited {
 					color: $color-main-text-light;
-				}
-
-				@media (min-width: $screen-md) {
-					padding-bottom: $gutter + 2px;
-
-					&:hover,
-					&:focus,
-					&:active,
-					&.active {
-						border-bottom: 1px solid $color-link;
-					}
 				}
 
 				@media (max-width: $screen-md) {
