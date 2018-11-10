@@ -10,7 +10,7 @@
 			<div class="grid__col grid__col--4-of-5 text-right">
 				{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
 				<ul class="list-inline">
-					<li><a {% if location == 'projects' %}class="active" {% endif %} {% if location == 'project' %}class="active" {% endif %} href="{{ site.baseurl }}/projects">Projects</a></li>
+					<li><a {% if location == 'about' %}class="active" {% endif %} href="{{ site.baseurl }}/about">About</a></li>
 					<!--<li><a {% if location == 'blog' %}class="active" {% endif %}href="{{ site.baseurl }}/blog">Blog</a></li>-->
 				</ul>
 			</div>
