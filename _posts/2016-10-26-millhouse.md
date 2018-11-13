@@ -8,6 +8,8 @@ title:      Millhouse
 date:       2016-10-26
 preview:    /images/2016/10/recipe.png
 
+permalink:	millhouse
+
 headline:	A web design &amp; front end development project for a private label brand for cereals in Greece.
 ---
 [Millhouse.gr](http://millhouse.gr) is a website I designed and developed for a private label brand for cereals in Greece, by Introfex Ltd. I was hired to create a unique online presence for the brand. The aim was to make the website appealing to people of all ages, as well as encourage them to engage with the brand through the recipes page.
