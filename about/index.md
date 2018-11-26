@@ -11,9 +11,9 @@ Fivos Avgerinos is a designer interested in speculative work related to the huma
 He has a background working as a User Interface Designer and is currently studying MA Design: Expanded Practice at Goldsmiths, University of London, focusing on Spaces and Participation.
 
 <script type="text/javascript">
-emailE='me.com'
-emailE=('afivos' + '@' + emailE)
-document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>')
+emailDomain='me.com'
+emailFull=('afivos' + '@' + emailDomain)
+document.write('<a href="mailto:' + emailFull + '">' + emailFull + '</a>')
 </script>
 
 <noscript>
