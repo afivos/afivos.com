@@ -16,4 +16,6 @@ Looking at it through this prism, however, contradicts the classic image of a mu
 
 In a playground, for example, one is expected to participate and engage with a fun environment. An environment where one’s actions have—yes, arguably minimal—consequences on others. As a child playing at the playground is expected to conceptualize this from an early age and behave accordingly, museums similarly ought to embrace participation in order to emphasize on the notion of cause and effect if they are indeed spaces that act as metaphors of society.
 
-*Update: These are just some thoughts about museums that I never got to finish, during the Musée de Refusés project at Goldsmiths.*
+---
+
+*These are just some thoughts about the museum as an institution that I never got to finish, during the Musée de Refusés design brief at Goldsmiths.*

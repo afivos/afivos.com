@@ -30,3 +30,7 @@ In a nutshell:
 We were asked to present our mission statement in video format which is mainly what we worked on during week 4.
 
 <iframe src="https://player.vimeo.com/video/240403865" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="imgbleed"></iframe>
+
+---
+
+Update: You can see the final project <a href="/for-your-safety-and-security">here</a>.
