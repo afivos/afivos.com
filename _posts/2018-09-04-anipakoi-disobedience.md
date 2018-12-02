@@ -17,7 +17,7 @@ During my internship at <a href="http://www.nassia-inglessis.com">Studio INI</a>
 
 <iframe src="https://player.vimeo.com/video/286988358?title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="imgbleed"></iframe>
 
-Very briefly, the installation is a 17-metre long kinetic wall constructed from a steel spring skeleton built up with recycled plastic. It flexes, morphs and breathes around the human body.
+Very briefly, ΑΝΥΠΑΚΟΗ is a 17-metre long kinetic wall constructed from a steel spring skeleton built up with recycled plastic. It flexes, morphs and breathes around the human body.
 
 {% image imgfull 2018/09/anipakoi-full-ed-reeve.jpg "Photo by: [Ed Reeve](http://www.editphoto.net/)" %}
 
