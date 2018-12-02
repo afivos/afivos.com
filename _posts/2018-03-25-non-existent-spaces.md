@@ -14,7 +14,7 @@ The name of this project is *Non-Existent Spaces*[^1] and it is born out of the 
 
 Space is self evident, but the way we perceive it is not. A bedroom, a lecture theatre, a factory, a rainforest, an island; all these spaces only exist when we create memories of ourselves interacting with them. They have standard names and often obvious functions but until we "verify" them, they remain spaces like the ones in our dreams: their shapes, sizes, colours, forms, functions might be changing depending on our thoughts and feelings. They will not exist until some or all of our senses are given the chance to create definitions for them.
 
-<iframe src="https://player.vimeo.com/video/261715642?title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/261715642?title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="imgbleed"></iframe>
 
 {% image imgbleed 2018/03/non-existent-spaces_prototype1.jpg %}
 

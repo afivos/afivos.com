@@ -15,3 +15,5 @@ I once heard that museums can also be seen as playgrounds of our perception of (
 Looking at it through this prism, however, contradicts the classic image of a museum where audience participation is definitely not the norm. There are various definitions, perceptions, and ideas around what constitutes a society but I am of the opinion that if everything one does results into something is accurate, society’s core lies on the notion that an individual’s actions have direct or indirect consequences on others. For every cause, there is an effect. 
 
 In a playground, for example, one is expected to participate and engage with a fun environment. An environment where one’s actions have—yes, arguably minimal—consequences on others. As a child playing at the playground is expected to conceptualize this from an early age and behave accordingly, museums similarly ought to embrace participation in order to emphasize on the notion of cause and effect if they are indeed spaces that act as metaphors of society.
+
+*Update: These are just some thoughts about museums that I never got to finish, during the Musée de Refusés project at Goldsmiths.*
