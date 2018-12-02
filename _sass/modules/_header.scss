@@ -33,7 +33,7 @@ Header
 			li a {
 				color: $color-main-text-dark !important;
 				text-decoration: none;
-				//margin-right: ($gutter / 1.5);
+				margin-left: ($gutter / 1.5);
 
 				@media (max-width: $screen-md) {
 					margin: 0 0.5rem;

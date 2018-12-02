@@ -11,7 +11,7 @@
 				{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
 				<ul class="list-inline">
 					<li><a {% if location == 'about' %}class="active" {% endif %} href="{{ site.baseurl }}/about">About</a></li>
-					<!--<li><a {% if location == 'blog' %}class="active" {% endif %}href="{{ site.baseurl }}/blog">Blog</a></li>-->
+					<li><a {% if location == 'blog' %}class="active" {% endif %}href="{{ site.baseurl }}/blog">Notes</a></li>
 				</ul>
 			</div>
 		</div>
