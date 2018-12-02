@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 <figure>
-    <img src="/images/2018/11/IMG_9617 copy.jpg" class="imgbleed">
+    <img src="/images/2018/11/IMG_9618 copy.jpg" class="imgbleed">
 </figure>
 
 Fivos Avgerinos is a designer interested in speculative work related to the human, culture and material. His transdisciplinary practice investigates social issues by imagining alternative futures.
