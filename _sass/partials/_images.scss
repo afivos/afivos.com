@@ -84,10 +84,10 @@ figcaption :last-child {
   .images-2x2 {
 
     img {
-    width: 100%;
-    margin: 0 auto;
-    float: none;
-    padding: 0;
+      width: 100%;
+      margin: 0 auto;
+      float: none;
+      padding: 0;
       margin-bottom: 1.2rem;
     }
   }
@@ -101,8 +101,22 @@ figcaption :last-child {
 }
 
 //////////////////
-//  iframe (tested with Vimeo)
+//  iframe (tested with Vimeo and issuu)
 //////////////////
 iframe {
   margin-bottom: 1.55rem;
+
+  &.issuu {
+    @media (max-width: $screen-md) {
+      width: 100% !important;
+    }
+  }
+}
+
+//////////////////
+//  audio
+//////////////////
+audio {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
 }
