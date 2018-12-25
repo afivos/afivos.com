@@ -106,7 +106,7 @@ figure {
 	margin: 0;
 
 	figcaption {
-		@extend %small;
+		@extend %extra-small;
 		color: $color-main-text-light;
 
 		a {
