@@ -9,7 +9,7 @@ title: About
 
 Fivos Avgerinos is a multidisciplinary designer and recent MA Design: Expanded Practice graduate of Goldsmiths, University of London. His studies focused on Spaces and Participation. Interested in speculative work related to the human, culture, and material, his practice investigates social issues by imagining alternative futures.
 
-With a background working as a User Interface Designer, he is currently looking for new opportunities in disciplines that bridge the gaps between art, design, technology and sustainability.
+With a background working as a User Interface Designer & Front-End Developer, as well as a Graphic Designer, he is currently looking for new opportunities in disciplines that bridge the gaps between art, design, technology and sustainability.
 
 <script type="text/javascript">
 emailDomain='me.com'
