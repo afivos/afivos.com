@@ -1,6 +1,6 @@
 ---
 layout:     project
-category:   project
+category:   making
 
 title:      In an oyster shell
 date:       2018-12-12

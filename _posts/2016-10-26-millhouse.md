@@ -1,6 +1,6 @@
 ---
 layout:     project
-category:   project
+category:   web
 
 published:  true
 

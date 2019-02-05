@@ -1,6 +1,6 @@
 ---
 layout:     project
-category:   project
+category:   making
 
 title:      For your safety + security
 date:       2017-12-19

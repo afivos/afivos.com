@@ -1,8 +1,8 @@
 ---
 layout:     project
-category:   project
+category:   tool
 
-published:  false
+published:  true
 
 title:      Carpet
 date:       2016-09-26

@@ -1,6 +1,6 @@
 ---
 layout:     project
-category:   project
+category:   making
 
 title:      Non-Existent Spaces
 date:       2018-03-25

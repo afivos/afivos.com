@@ -1,6 +1,6 @@
 ---
 layout:     project
-category:   project
+category:   tool
 
 title:      Abracadabra
 date:       2015-05-11

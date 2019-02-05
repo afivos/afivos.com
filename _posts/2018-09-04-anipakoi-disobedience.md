@@ -1,6 +1,6 @@
 ---
 layout:     project
-category:   project
+category:   making
 
 title:      ΑΝΥΠΑΚΟΗ (DISOBEDIENCE)
 date:       2018-09-04

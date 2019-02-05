@@ -1,6 +1,6 @@
 ---
 layout:     project
-category:   project
+category:   making
 
 title:      Social Inclusion Brick Council
 date:       2018-07-06

@@ -27,20 +27,65 @@ Header
 			}
 		}
 
-		.list-inline {
-			@media (max-width: $screen-md) {text-align: center;}
+		.dropdown {
+			@media (max-width: $screen-md) {
+				text-align: center;
+				margin-bottom: 2.5rem;
+			}
 
-			li a {
-				color: $color-main-text-dark !important;
-				text-decoration: none;
-				//margin-left: ($gutter / 1.5);
+			li {
+				margin-left: ($gutter / 1.5);
 
 				@media (max-width: $screen-md) {
 					margin: 0 0.5rem;
 				}
 
-				&:hover {
-					color: $color-link !important;
+				display: inline-block;
+				margin-bottom: 0.5rem;
+				position: relative;
+				text-decoration: none;
+				transition-duration: 0.5s;
+
+				a {
+					color: $color-main-text-dark !important;
+					text-decoration: none;
+
+					&:hover {
+						background: lighten($color-link, 30%);
+						//color: $color-link !important;
+					}
+				}
+
+				ul {
+					visibility: hidden;
+					opacity: 0;
+					text-align: left;
+					position: absolute;
+					left: 0;
+					display: none;
+				}
+
+				&:hover > ul,
+				&:focus-within > ul,
+				ul:hover,
+				ul:focus {
+					visibility: visible;
+					opacity: 1;
+					display: block;
+				}
+
+				ul li {
+					clear: both;
+					width: 175%;
+					margin-left: 0;
+
+					&:first-of-type {
+						margin-top: 1.25rem;
+					}
+
+					@media (max-width: $screen-md) {
+						margin-bottom: 0.5rem;
+					}
 				}
 			}
 		}
