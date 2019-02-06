@@ -111,6 +111,7 @@ figure {
 
 		a {
 			text-decoration: underline;
+			color: inherit !important;
 			@extend %transition-1;
 		}
 	}

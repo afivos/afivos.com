@@ -11,6 +11,10 @@ Header
 		margin: ($gutter / 2) 0 ($gutter * 3) 0;
 	}
 
+	a {
+		text-decoration: none;
+	}
+
 	nav {
 		padding-bottom: $gutter;
 		@extend %transition-2;
@@ -41,20 +45,10 @@ Header
 				}
 
 				display: inline-block;
-				margin-bottom: 0.5rem;
+				margin-bottom: 0.25rem;
 				position: relative;
 				text-decoration: none;
 				transition-duration: 0.5s;
-
-				a {
-					color: $color-main-text-dark !important;
-					text-decoration: none;
-
-					&:hover {
-						background: lighten($color-link, 30%);
-						//color: $color-link !important;
-					}
-				}
 
 				ul {
 					visibility: hidden;

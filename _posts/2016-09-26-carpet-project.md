@@ -10,5 +10,5 @@ preview:    /images/2016/09/carpet.png
 
 direct_url: /carpet
 
-headline:   Super simple Sass structure for OCD web designers like me.
+headline:   Super simple Sass architecture to bootstrap your web design projects.
 ---

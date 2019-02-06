@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 <figure>
-    <img src="/images/2018/11/IMG_9618 copy.jpg" class="imgbleed">
+    <img src="/images/2018/11/IMG_9618_BW.jpg" class="imgbleed">
     <figcaption>Painting a brick white using limewash made out of calcined oyster shells. Part of the process for <a href="/in-an-oyster-shell"><em>In an oyster shell</em></a>.</figcaption>
 </figure>
 

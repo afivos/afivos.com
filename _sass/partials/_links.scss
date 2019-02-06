@@ -9,16 +9,17 @@ a {
 
 	&:link,
 	&:visited {
-		color: $color-link;
-		text-decoration: none;
+		color: inherit;
 	}
 
 	&:hover,
 	&:focus,
-	&:active,
+	&:active {
+		color: lighten($color-main-text-light, 10%) !important;
+	}
+
 	&.active {
-		color: $color-link !important;
-		text-decoration: underline;
+		//color: lighten($color-main-text-light, 10%) !important;
 	}
 
 	&:focus {
