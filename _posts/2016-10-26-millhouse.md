@@ -8,7 +8,7 @@ title:      Millhouse
 date:       2016-10-26
 preview:    /images/2016/10/recipe.jpg
 
-headline:	A web design &amp; front end development project for a private label brand for cereals in Greece.
+headline:	A web design &amp; front-end development project for a private label brand for cereals in Greece.
 
 permalink:	millhouse
 ---
