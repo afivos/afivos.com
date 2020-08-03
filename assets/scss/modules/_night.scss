@@ -1,0 +1,82 @@
+// ------------------------------
+//
+// Module: Night
+//
+// ------------------------------
+
+:root[user-color-mode="night"] {
+	background: $color-gray-darkest;
+	color: $color-white;
+
+	/* Style the selected text and elements. */
+	::selection{
+		background-color: darken($color-yellow, 10%);
+	}
+
+	.section {
+		.column {
+			color: $color-white;
+			background: $color-gray-darkest;
+		}
+
+		&.section-top {
+			.column {
+				&.column-right {
+					background: transparent;
+				}
+			}
+		}
+	}
+
+	img {
+		// filter: grayscale(100%);
+	}
+
+	a:not(.button),
+	.pasta {
+		border-bottom: 1.5px solid rgba($color-white, 0.5);
+		color: $color-white;
+
+		&:hover {
+			border-color: $color-white;
+			// filter: brightness(50%);
+			opacity: 1;
+		}
+	}
+
+	.nav {
+		a {
+			&:after {
+				background: $color-white;
+			}
+
+			&:hover {
+				filter: none;
+
+				@include media("≤tablet") {
+					opacity: 0.5;
+				}
+			}
+		}
+
+		button {
+			color: $color-white;
+		}
+	}
+
+	.button {
+		&:hover {
+			background: $color-white;
+			border-color: $color-white;
+			color: $color-black;
+		}
+	}
+
+	.availability {
+		background: $color-black;
+	}
+
+	.note {
+		border-color: $color-white;
+	}
+}

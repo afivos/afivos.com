@@ -1,0 +1,17 @@
+// ------------------------------
+//
+// Page: Project
+//
+// ------------------------------
+
+.section-project {
+	padding: 3.5% 25vw;
+
+	@include media("≤desktop") {
+		padding: 3.5% 7.5vw;
+	}
+
+	.photo {
+		margin: 0;
+	}
+}

@@ -1,6 +1,6 @@
-*.codekit
-*.codekit3
-*.scssc
-_site/
-_drafts/
+node_modules
+.config.codekit3
+.codekit-cache
 .DS_Store
+.sass-cache
+*.codekit3

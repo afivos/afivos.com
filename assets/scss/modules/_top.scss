@@ -1,0 +1,139 @@
+// ------------------------------
+//
+// Module: Top
+//
+// ------------------------------
+
+.section-top {
+	@include media("≥tablet", "height≤tablet") {
+		height: 25vh;
+		min-height: 9rem;
+	}
+
+	@include media("height≤tablet") {
+		height: 12rem;
+	}
+
+	.column {
+		padding: 4.2% 7.5vw 0;
+
+		&.column-left {
+			background: $color-white;
+
+			@include media("≤tablet") {
+				padding-top: 7.5vw;
+				padding-bottom: 0;
+			}
+		}
+
+		&.column-right {
+			background: transparent;
+			z-index: 1;
+
+			@include media("≤tablet") {
+				padding-top: 0;
+				padding-bottom: 7.5vw;
+			}
+
+			@include media("≥tablet") {
+				position: fixed;
+				margin-top: 0;
+				top: 0;
+				right: 0;
+			}
+		}
+
+		.name {
+			.title {
+				font-size: 1.2rem;
+				margin: 0;
+			}
+
+			.subtitle {
+				margin: -0.5rem 0 1.5rem;
+			}
+			a {
+				border: none !important;
+				text-decoration: none;
+
+				&:hover {
+					color: inherit;
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+
+	.nav {
+		@include media("≥tablet") {
+			text-align: right;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			@include media("≤tablet") {
+				margin-top: 0;
+			}
+
+			li {
+				display: inline-block;
+				margin-right: 1.25rem;
+
+				@include media("≥tablet") {
+					margin-left: 1.25rem;
+					margin-right: 0;
+				}
+
+				a {
+					border: none !important;
+					text-decoration: none;
+
+					&:hover {
+						color: inherit;
+
+						@include media("≤tablet") {
+							opacity: 0.5;
+						}
+					}
+
+					@include media("≥tablet") {
+						&:after {
+							content: '';
+							display: block;
+							width: 0;
+							height: 1.5px;
+							background: $color-black;
+							transition: width 0.3s;
+						}
+
+						&:hover {
+							background: transparent;
+							opacity: 1;
+
+							&:after {
+								width: 100%;
+							}
+						}
+					}
+				}
+
+				button {
+					background: none;
+					border: none;
+					cursor: pointer;
+					padding: 0;
+					transition: all 0.25s;
+
+					&:hover {
+						@include media("≥tablet") {
+							transform: scale(1.25);
+						}
+					}
+				}
+			}
+		}
+	}
+}
