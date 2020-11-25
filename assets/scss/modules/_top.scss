@@ -90,8 +90,9 @@
 					text-decoration: none;
 
 					&:hover {
-						color: inherit;
-						opacity: 1 !important;
+						@include media("≤tablet") {
+							opacity: 0.5;
+						}
 					}
 
 					@include media("≤tablet") {
