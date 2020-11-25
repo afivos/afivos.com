@@ -45,6 +45,12 @@
 				background: $color-white;
 			}
 
+			&.active {
+				&:after {
+					background: $color-white;
+				}
+			}
+
 			&:hover {
 				filter: none;
 

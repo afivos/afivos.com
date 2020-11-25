@@ -91,9 +91,17 @@
 
 					&:hover {
 						color: inherit;
+					}
 
-						@include media("≤tablet") {
-							opacity: 0.5;
+					@include media("≤tablet") {
+						&.active {
+							&:after {
+								content: '';
+								display: block;
+								height: 1.5px;
+								background-color: $color-black;
+								transition: width 0.3s;
+							}
 						}
 					}
 
