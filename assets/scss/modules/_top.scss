@@ -91,6 +91,7 @@
 
 					&:hover {
 						color: inherit;
+						opacity: 1 !important;
 					}
 
 					@include media("≤tablet") {
