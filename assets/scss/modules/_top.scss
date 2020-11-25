@@ -49,6 +49,7 @@
 			.subtitle {
 				margin: -0.5rem 0 1.5rem;
 			}
+
 			a {
 				border: none !important;
 				text-decoration: none;
@@ -106,6 +107,7 @@
 							transition: width 0.3s;
 						}
 
+						&.active,
 						&:hover {
 							background: transparent;
 							opacity: 1;
