@@ -16,14 +16,9 @@
 	.section {
 		.column {
 			color: $color-white;
-			background: $color-gray-darkest;
-		}
 
-		&.section-top {
-			.column {
-				&.column-right {
-					background: transparent;
-				}
+			.photo {
+				border-color: transparent;
 			}
 		}
 	}

@@ -19,25 +19,6 @@
 		flex: 0 50%;
 		transition: background-color 0.5s, color 0.5s;
 
-		&.column-left {
-			// background: #2E3339;
-			background: $color-white;
-
-			@include media("≤tablet") {
-				background: $color-white;
-			}
-		}
-
-		&.column-right {
-			background: $color-gray-lightest;
-
-			@include media("≤tablet") {
-				background: $color-white;
-			}
-		}
-
-
-
 		&.column-left,
 		&.column-right {
 			@include media("≤tablet") {
