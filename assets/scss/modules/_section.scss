@@ -27,7 +27,7 @@
 		}
 
 		.description {
-			margin: 7.5vw;
+			margin: 2.5vw 7.5vw 7.5vw 0;
 			max-width: 550px;
 			transition: margin 0.5s;
 
@@ -42,7 +42,7 @@
 
 		.photo {
 			line-height: 0;
-			margin: 7.5vw;
+			margin: 3vw 7.5vw 7.5vw;
 			transition: all 0.5s;
 			border: 1px solid $color-gray;
 		}
