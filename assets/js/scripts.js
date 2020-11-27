@@ -1,5 +1,5 @@
 const nightSwitch = document.getElementById("darkMode");
-let mode = localStorage.getItem("mode");
+let mode = !!localStorage.getItem("mode") ? localStorage.getItem("mode") : "day";
 
 const applyMode = (mode) => {
     document.documentElement.setAttribute("user-color-mode", mode);
