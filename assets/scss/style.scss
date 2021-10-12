@@ -39,6 +39,10 @@ body {
 	position: relative;
 }
 
+ol,li {
+	margin-bottom: 1em;
+}
+
 img {
 	background: $color-gray-lightest;
 	transition: all 0.25s;
@@ -46,7 +50,6 @@ img {
 }
 
 .title {
-	font-size: 1.5rem;
 	font-weight: 800;
 	line-height: 1.5;
 	margin-top: 0;
@@ -81,6 +84,8 @@ hr {
 
 .main {
 	transition: all 0.25s;
+	width: 100%;
+	
 	@include media("≥tablet") {
 		position: absolute;
 		top: 25vh;
@@ -107,6 +112,12 @@ hr {
 		text-decoration: none;
 		transition: margin-left 0.25s;
 	}
+	
+	&[target="_blank"] {
+		&:after {
+			content: '↗';
+		}
+	}
 
 	&:hover {
 		background: $color-black;
@@ -116,6 +127,10 @@ hr {
 		&:after {
 			margin-left: 0.5rem;
 		}
+	}
+	
+	& + .button {
+		margin-left: 0.75rem;
 	}
 }
 

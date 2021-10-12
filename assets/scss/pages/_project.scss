@@ -5,13 +5,41 @@
 // ------------------------------
 
 .section-project {
-	padding: 3.5% 25vw;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 3.5% 25vw 25vw;
 
 	@include media("≤desktop") {
 		padding: 3.5% 7.5vw;
 	}
 
 	.photo {
-		margin: 0;
+		margin: 6% 0 6% -7.5vw;
+		width: calc(100% + 15vw);
+		
+		@include media("≥desktop") {
+			margin: 6% 0 6% -30%;
+			width: calc(100% + 60%);
+		}
+		
+		@include media("≥large") {
+			margin: 6% 0 6% -40%;
+			width: calc(100% + 80%);
+		}
+	}
+	
+	.project-quote {
+		border-bottom: 1px solid $color-black;
+		border-top: 1px solid $color-black;
+		margin: 10% 0 10% -10%;
+		width: calc(100% + 20%);
+		padding: 7.5% 5%;
+		text-align: center;
+		
+		& + .project-quote-caption {
+			margin-top: -7.5%;
+			text-align: center;
+			font-weight: 600;
+		}
 	}
 }
