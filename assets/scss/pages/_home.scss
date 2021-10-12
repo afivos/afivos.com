@@ -9,15 +9,15 @@
 	padding-left: 7.5vw;
 
 	.column {
-		&.column-left {
-			.description {
-				font-size: 0.9rem;
-			}
-		}
-
 		&.column-right {
 			@include media("≤tablet") {
 				padding-top: 2rem;
+			}
+			
+			.description {
+				@include media("≤tablet") {
+					margin: 0 7.5vw 25% 0;
+				}
 			}
 		}
 	}
