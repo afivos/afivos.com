@@ -6,7 +6,7 @@
 
 .section-home {
 	height: auto;
-	padding-left: 7.5vw;
+	// padding-left: 7.5vw;
 
 	.column {
 		&.column-right {
@@ -23,7 +23,7 @@
 	}
 
 	.paragraph-box {
-		background: $color-gray-lightest;
+		background: $color-white;
 		border-radius: 10px;
 		display: inline-block;
 		letter-spacing: 0;
