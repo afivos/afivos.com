@@ -1,22 +1,22 @@
 // ------------------------------
 //
-// Page: Home
+// Page: About
 //
 // ------------------------------
 
-.section-home {
+.section-about {
 	height: auto;
 	// padding-left: 7.5vw;
 
 	.column {
 		&.column-right {
-			@include media("≤tablet") {
-				padding-top: 2rem;
+			@include media("≤desktop") {
+				// padding-top: 2rem;
 			}
 			
 			.description {
-				@include media("≤tablet") {
-					margin: 0 7.5vw 25% 0;
+				@include media("≤desktop") {
+					// margin: 0 7.5vw 25% 0;
 				}
 			}
 		}
@@ -30,10 +30,6 @@
 		padding: 0.5rem 1.25rem;
 		transition: background 0.5s;
 		width: auto;
-
-		@include media("≤tablet") {
-			background: $color-gray-lightest;
-		}
 
 		.pulse {
 			animation: pulse 3s infinite;
@@ -72,6 +68,7 @@
 
 	.social {
 		list-style: none;
+		margin-top: 5vh;
 		padding: 0;
 
 		li {

@@ -87,12 +87,12 @@ hr {
 	transition: all 0.25s;
 	width: 100%;
 	
-	@include media("≥tablet") {
+	@include media("≥desktop") {
 		position: absolute;
 		top: 25vh;
 	}
 
-	@include media("height≤tablet") {
+	@include media("height≤desktop") {
 		top: 12rem;
 	}
 }
