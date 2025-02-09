@@ -54,7 +54,7 @@
 			}
 			
 			a {
-				border: 0;
+				border: 0 !important;
 				
 				&:hover {
 					filter: brightness(125%);
