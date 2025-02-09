@@ -5,25 +5,8 @@
 // ------------------------------
 
 .section-about {
-	height: auto;
-	// padding-left: 7.5vw;
-
-	.column {
-		&.column-right {
-			@include media("≤desktop") {
-				// padding-top: 2rem;
-			}
-			
-			.description {
-				@include media("≤desktop") {
-					// margin: 0 7.5vw 25% 0;
-				}
-			}
-		}
-	}
-
 	.paragraph-box {
-		background: $color-white;
+		background: $color-gray-lightest;
 		border-radius: 10px;
 		display: inline-block;
 		letter-spacing: 0;

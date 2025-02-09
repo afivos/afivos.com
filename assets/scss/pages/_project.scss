@@ -5,36 +5,64 @@
 // ------------------------------
 
 .section-project {
-	max-width: 650px;
-	margin: 0 auto;
-	padding: 3.5% 25vw 25vw;
-
-	@include media("≤desktop") {
-		padding: 3.5% 7.5vw;
+	flex-wrap: wrap;
+	padding: 0 7.5vw 15vw;
+	
+	&-header {
+		img {
+			background: none;
+			display: inline-block;
+			margin-right: 0.75rem;
+			vertical-align: middle;
+			width: 2.5rem;
+			
+			@include media("≤tablet") {
+				margin-bottom: 0.5rem;
+			}
+		}
+		
+		&-heading {
+			display: inline-block;
+			font-weight: 600;
+			line-height: 1.25;
+			margin-top: -0.1rem;
+			vertical-align: top;
+			
+			span {
+				color: $color-gray-light;
+				display: block;
+				font-weight: 400;
+			}
+		}
+	}
+	
+	&-body {
+		margin-top: 3%;
+		width: 100%;
+	}
+	
+	p, ul, ol {
+		max-width: 650px;
+	}
+	
+	.title {
+		font-weight: 600;
 	}
 
 	.photo {
-		margin: 6% 0 6% -7.5vw;
-		width: calc(100% + 15vw);
+		margin: 6% auto;
+		width: 100%;
+		max-width: 100%;
 		
-		@include media("≥desktop") {
-			margin: 6% 0 6% -30%;
-			width: calc(100% + 60%);
-		}
-		
-		@include media("≥large") {
-			margin: 6% 0 6% -40%;
-			width: calc(100% + 80%);
+		img {
+			border-radius: 0.75rem;
 		}
 	}
 	
 	.project-quote {
-		border-bottom: 1px solid $color-black;
-		border-top: 1px solid $color-black;
-		margin: 10% 0 10% -10%;
-		width: calc(100% + 20%);
-		padding: 7.5% 5%;
-		text-align: center;
+		font-size: 2rem;
+		font-weight: 600;
+		margin: 10% 0;
 		
 		& + .project-quote-caption {
 			margin-top: -7.5%;

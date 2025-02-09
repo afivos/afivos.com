@@ -31,7 +31,7 @@
 		}
 
 		.description {
-			margin: 2.75vw 7.5vw 7.5vw 0;
+			margin: -0.25vw 7.5vw 9.5vw 0;
 			max-width: 550px;
 			transition: margin 0.5s;
 
@@ -46,11 +46,19 @@
 
 		.photo {
 			line-height: 0;
-			margin: 3vw 3.5vw 7.5vw 7.5vw;
+			margin: 0 3.5vw 7.5vw 7.5vw;
 			transition: all 0.5s;
 			
 			@include media("≤desktop") {
 				margin: 3vw 7.5vw 3.5vw;
+			}
+			
+			a {
+				border: 0;
+				
+				&:hover {
+					filter: brightness(125%);
+				}
 			}
 			
 			img {

@@ -15,9 +15,14 @@
 }
 
 :root {
-	background-color: #F5F5F5;
 	color: $color-black;
+	font-family: Inter, sans-serif;
+	font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 	transition: background 0.5s;
+}
+
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
 }
 
 /* Style the selected text and elements. */
@@ -32,9 +37,8 @@ body {
 }
 
 body {
-	font-family: 'Inter', sans-serif;
 	font-size: 1.125rem;
-	letter-spacing: 0.01rem;
+	// letter-spacing: 0.01rem;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	position: relative;
@@ -51,12 +55,17 @@ img {
 }
 
 .title {
-	font-weight: 800;
 	line-height: 1.5;
 	margin-top: 0;
+	
+	span {
+		color: $color-gray-light;
+		display: block;
+	}
 }
 
 .subtitle {
+	color: $color-gray-light;
 	margin-top: 0;
 	margin-bottom: 2.75rem;
 }
@@ -87,12 +96,12 @@ hr {
 	transition: all 0.25s;
 	width: 100%;
 	
-	@include media("≥desktop") {
+	@include media("≥tablet") {
 		position: absolute;
 		top: 25vh;
 	}
 
-	@include media("height≤desktop") {
+	@include media("height≤tablet") {
 		top: 12rem;
 	}
 }

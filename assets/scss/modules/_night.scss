@@ -23,10 +23,6 @@
 		}
 	}
 
-	img {
-		// filter: grayscale(100%);
-	}
-
 	a:not(.button),
 	.pasta {
 		border-bottom: 1.5px solid rgba($color-white, 0.5);
@@ -34,7 +30,6 @@
 
 		&:hover {
 			border-color: $color-white;
-			// filter: brightness(50%);
 			opacity: 1;
 		}
 	}
